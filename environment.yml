@@ -1,0 +1,14 @@
+name: lidar_project
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - matplotlib
+  - numpy
+  - pandas
+  - python=3.12
+  - scikit-learn
+  - seaborn
+  - pcl
+  - jupyter
+prefix: /home/joshuarhb/miniconda3/envs/lidar_project
