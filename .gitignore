@@ -1,1 +1,9 @@
 /frames
+
+slurm-*
+
+/ground_frames
+
+/processed
+
+/output_pointclouds
