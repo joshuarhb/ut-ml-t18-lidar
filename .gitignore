@@ -7,3 +7,5 @@ slurm-*
 /processed
 
 /output_pointclouds
+
+/verify_kiss
