@@ -8,4 +8,4 @@ slurm-*
 
 /output_pointclouds
 
-/verify_kiss
+/verify_kiss/verifykissvenv
