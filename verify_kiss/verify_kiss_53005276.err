@@ -1,0 +1,7 @@
+
+CondaSystemExit: Exiting.
+
+Traceback (most recent call last):
+  File "verify_kiss.py", line 9, in <module>
+    for file in os.listdir(pcd_folder)
+NameError: name 'pcd_folder' is not defined

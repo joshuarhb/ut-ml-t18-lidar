@@ -1,0 +1,7 @@
+
+CondaSystemExit: Exiting.
+
+  File "verify_kiss.py", line 61
+    if i == pcd_list - 1
+                       ^
+SyntaxError: invalid syntax

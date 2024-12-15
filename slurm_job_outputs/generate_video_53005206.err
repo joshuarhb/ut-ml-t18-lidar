@@ -1,0 +1,245 @@
++ module load python/3.10
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ source /gpfs/helios/home/joshua1/miniconda3/bin/activate
+++ _CONDA_ROOT=/gpfs/helios/home/joshua1/miniconda3
+++ . /gpfs/helios/home/joshua1/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/gpfs/helios/home/joshua1/miniconda3/bin/conda
++++ CONDA_EXE=/gpfs/helios/home/joshua1/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/gpfs/helios/home/joshua1/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/gpfs/helios/home/joshua1/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /gpfs/helios/home/joshua1/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/python-3.10.10-3j6wnhbwph7zw6owxfwjz5s4suqcrhpy/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/util-linux-uuid-2.38.1-oeknafsexcwluqat67nfoddiposd4ing/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/sqlite-3.40.1-z53b3mrzges5voj3ryuwl33vtl54vmka/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/openssl-1.1.1t-zpyus53f7y64jqao22slxirp5bxkn5on/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gettext-0.21.1-v5zziaiiog3seiwjht6xxekhhgxlyaux/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/tar-1.34-di6jneviksahpugteew3nw7xylmdvln6/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/zstd-1.5.5-uwoud5bnp4pbg3smixk53sikgtonk724/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/pigz-2.7-kt6friwwtt5vaf4vrdarksazspz7ymb4/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libxml2-2.10.3-dwua3qyvnjuw4gr5e647vz7excjs7fcl/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/xz-5.4.1-s3xazj4yfqkj7pa3stqp7jmvkuruajys/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libiconv-1.17-jnbsfi7vg5lpmnduzz6vd53fwo2cmioe/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gdbm-1.19-nl4imdi2at5wxpvmczcvg2zn7qv3q3wp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/readline-8.2-3hr2vfg4gtk4cgolsuqojkazuk47p2aj/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/ncurses-6.4-pujsa3jsy37izxsxg3wwveliieltiapp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/nano-5.6-qti5ty2h5eypxxpi2job2ke6cfcynphx/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/expat-2.5.0-lsizq6acgtil4mjnvag5t3hmekx25c2e/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/bzip2-1.0.8-x5pr7ag4lrodvlbbft75zuawjbxoutg2/bin:/gpfs/helios/home/joshua1/miniconda3/bin:/gpfs/helios/home/joshua1/miniconda3/condabin:/gpfs/helios/home/joshua1/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/bin/remote-cli:/gpfs/helios/home/joshua1/.local/bin:/gpfs/helios/home/joshua1/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/gpfs/helios/home/joshua1/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/gpfs/helios/home/joshua1/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/gpfs/helios/home/joshua1/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/python-3.10.10-3j6wnhbwph7zw6owxfwjz5s4suqcrhpy/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/util-linux-uuid-2.38.1-oeknafsexcwluqat67nfoddiposd4ing/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/sqlite-3.40.1-z53b3mrzges5voj3ryuwl33vtl54vmka/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/openssl-1.1.1t-zpyus53f7y64jqao22slxirp5bxkn5on/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gettext-0.21.1-v5zziaiiog3seiwjht6xxekhhgxlyaux/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/tar-1.34-di6jneviksahpugteew3nw7xylmdvln6/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/zstd-1.5.5-uwoud5bnp4pbg3smixk53sikgtonk724/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/pigz-2.7-kt6friwwtt5vaf4vrdarksazspz7ymb4/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libxml2-2.10.3-dwua3qyvnjuw4gr5e647vz7excjs7fcl/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/xz-5.4.1-s3xazj4yfqkj7pa3stqp7jmvkuruajys/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libiconv-1.17-jnbsfi7vg5lpmnduzz6vd53fwo2cmioe/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gdbm-1.19-nl4imdi2at5wxpvmczcvg2zn7qv3q3wp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/readline-8.2-3hr2vfg4gtk4cgolsuqojkazuk47p2aj/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/ncurses-6.4-pujsa3jsy37izxsxg3wwveliieltiapp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/nano-5.6-qti5ty2h5eypxxpi2job2ke6cfcynphx/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/expat-2.5.0-lsizq6acgtil4mjnvag5t3hmekx25c2e/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/bzip2-1.0.8-x5pr7ag4lrodvlbbft75zuawjbxoutg2/bin:/gpfs/helios/home/joshua1/miniconda3/bin:/gpfs/helios/home/joshua1/miniconda3/condabin:/gpfs/helios/home/joshua1/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/bin/remote-cli:/gpfs/helios/home/joshua1/.local/bin:/gpfs/helios/home/joshua1/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/gpfs/helios/home/joshua1/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/gpfs/helios/home/joshua1/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/gpfs/helios/home/joshua1/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/python-3.10.10-3j6wnhbwph7zw6owxfwjz5s4suqcrhpy/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/util-linux-uuid-2.38.1-oeknafsexcwluqat67nfoddiposd4ing/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/sqlite-3.40.1-z53b3mrzges5voj3ryuwl33vtl54vmka/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/openssl-1.1.1t-zpyus53f7y64jqao22slxirp5bxkn5on/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gettext-0.21.1-v5zziaiiog3seiwjht6xxekhhgxlyaux/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/tar-1.34-di6jneviksahpugteew3nw7xylmdvln6/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/zstd-1.5.5-uwoud5bnp4pbg3smixk53sikgtonk724/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/pigz-2.7-kt6friwwtt5vaf4vrdarksazspz7ymb4/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libxml2-2.10.3-dwua3qyvnjuw4gr5e647vz7excjs7fcl/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/xz-5.4.1-s3xazj4yfqkj7pa3stqp7jmvkuruajys/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libiconv-1.17-jnbsfi7vg5lpmnduzz6vd53fwo2cmioe/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gdbm-1.19-nl4imdi2at5wxpvmczcvg2zn7qv3q3wp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/readline-8.2-3hr2vfg4gtk4cgolsuqojkazuk47p2aj/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/ncurses-6.4-pujsa3jsy37izxsxg3wwveliieltiapp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/nano-5.6-qti5ty2h5eypxxpi2job2ke6cfcynphx/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/expat-2.5.0-lsizq6acgtil4mjnvag5t3hmekx25c2e/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/bzip2-1.0.8-x5pr7ag4lrodvlbbft75zuawjbxoutg2/bin:/gpfs/helios/home/joshua1/miniconda3/bin:/gpfs/helios/home/joshua1/miniconda3/condabin:/gpfs/helios/home/joshua1/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/bin/remote-cli:/gpfs/helios/home/joshua1/.local/bin:/gpfs/helios/home/joshua1/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/gpfs/helios/home/joshua1/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand
++++ PATH=/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/python-3.10.10-3j6wnhbwph7zw6owxfwjz5s4suqcrhpy/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/util-linux-uuid-2.38.1-oeknafsexcwluqat67nfoddiposd4ing/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/sqlite-3.40.1-z53b3mrzges5voj3ryuwl33vtl54vmka/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/openssl-1.1.1t-zpyus53f7y64jqao22slxirp5bxkn5on/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gettext-0.21.1-v5zziaiiog3seiwjht6xxekhhgxlyaux/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/tar-1.34-di6jneviksahpugteew3nw7xylmdvln6/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/zstd-1.5.5-uwoud5bnp4pbg3smixk53sikgtonk724/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/pigz-2.7-kt6friwwtt5vaf4vrdarksazspz7ymb4/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libxml2-2.10.3-dwua3qyvnjuw4gr5e647vz7excjs7fcl/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/xz-5.4.1-s3xazj4yfqkj7pa3stqp7jmvkuruajys/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libiconv-1.17-jnbsfi7vg5lpmnduzz6vd53fwo2cmioe/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gdbm-1.19-nl4imdi2at5wxpvmczcvg2zn7qv3q3wp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/readline-8.2-3hr2vfg4gtk4cgolsuqojkazuk47p2aj/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/ncurses-6.4-pujsa3jsy37izxsxg3wwveliieltiapp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/nano-5.6-qti5ty2h5eypxxpi2job2ke6cfcynphx/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/expat-2.5.0-lsizq6acgtil4mjnvag5t3hmekx25c2e/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/bzip2-1.0.8-x5pr7ag4lrodvlbbft75zuawjbxoutg2/bin:/gpfs/helios/home/joshua1/miniconda3/bin:/gpfs/helios/home/joshua1/miniconda3/condabin:/gpfs/helios/home/joshua1/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/bin/remote-cli:/gpfs/helios/home/joshua1/.local/bin:/gpfs/helios/home/joshua1/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/gpfs/helios/home/joshua1/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/gpfs/helios/home/joshua1/miniconda3/bin/conda
++++ CONDA_EXE=/gpfs/helios/home/joshua1/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/gpfs/helios/home/joshua1/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/gpfs/helios/home/joshua1/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate lidar_project
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate lidar_project
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate lidar_project
+++ /gpfs/helios/home/joshua1/miniconda3/bin/conda shell.posix activate lidar_project
++ ask_conda='PS1='\''(lidar_project) '\''
+export PATH='\''/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/python-3.10.10-3j6wnhbwph7zw6owxfwjz5s4suqcrhpy/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/util-linux-uuid-2.38.1-oeknafsexcwluqat67nfoddiposd4ing/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/sqlite-3.40.1-z53b3mrzges5voj3ryuwl33vtl54vmka/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/openssl-1.1.1t-zpyus53f7y64jqao22slxirp5bxkn5on/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gettext-0.21.1-v5zziaiiog3seiwjht6xxekhhgxlyaux/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/tar-1.34-di6jneviksahpugteew3nw7xylmdvln6/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/zstd-1.5.5-uwoud5bnp4pbg3smixk53sikgtonk724/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/pigz-2.7-kt6friwwtt5vaf4vrdarksazspz7ymb4/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libxml2-2.10.3-dwua3qyvnjuw4gr5e647vz7excjs7fcl/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/xz-5.4.1-s3xazj4yfqkj7pa3stqp7jmvkuruajys/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libiconv-1.17-jnbsfi7vg5lpmnduzz6vd53fwo2cmioe/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gdbm-1.19-nl4imdi2at5wxpvmczcvg2zn7qv3q3wp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/readline-8.2-3hr2vfg4gtk4cgolsuqojkazuk47p2aj/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/ncurses-6.4-pujsa3jsy37izxsxg3wwveliieltiapp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/nano-5.6-qti5ty2h5eypxxpi2job2ke6cfcynphx/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/expat-2.5.0-lsizq6acgtil4mjnvag5t3hmekx25c2e/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/bzip2-1.0.8-x5pr7ag4lrodvlbbft75zuawjbxoutg2/bin:/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/bin:/gpfs/helios/home/joshua1/miniconda3/condabin:/gpfs/helios/home/joshua1/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/bin/remote-cli:/gpfs/helios/home/joshua1/.local/bin:/gpfs/helios/home/joshua1/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/gpfs/helios/home/joshua1/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'\''
+export CONDA_PREFIX='\''/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''lidar_project'\''
+export CONDA_PROMPT_MODIFIER='\''(lidar_project) '\''
+export CONDA_PREFIX_1='\''/gpfs/helios/home/joshua1/miniconda3'\''
+export CONDA_EXE='\''/gpfs/helios/home/joshua1/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/gpfs/helios/home/joshua1/miniconda3/bin/python'\''
+. "/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/conda/activate.d/libglib_activate.sh"
+. "/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/conda/activate.d/libxml2_activate.sh"
+. "/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/conda/activate.d/openmpi_activate.sh"
+. "/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/conda/activate.d/proj4-activate.sh"'
++ eval 'PS1='\''(lidar_project) '\''
+export PATH='\''/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/python-3.10.10-3j6wnhbwph7zw6owxfwjz5s4suqcrhpy/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/util-linux-uuid-2.38.1-oeknafsexcwluqat67nfoddiposd4ing/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/sqlite-3.40.1-z53b3mrzges5voj3ryuwl33vtl54vmka/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/openssl-1.1.1t-zpyus53f7y64jqao22slxirp5bxkn5on/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gettext-0.21.1-v5zziaiiog3seiwjht6xxekhhgxlyaux/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/tar-1.34-di6jneviksahpugteew3nw7xylmdvln6/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/zstd-1.5.5-uwoud5bnp4pbg3smixk53sikgtonk724/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/pigz-2.7-kt6friwwtt5vaf4vrdarksazspz7ymb4/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libxml2-2.10.3-dwua3qyvnjuw4gr5e647vz7excjs7fcl/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/xz-5.4.1-s3xazj4yfqkj7pa3stqp7jmvkuruajys/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libiconv-1.17-jnbsfi7vg5lpmnduzz6vd53fwo2cmioe/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gdbm-1.19-nl4imdi2at5wxpvmczcvg2zn7qv3q3wp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/readline-8.2-3hr2vfg4gtk4cgolsuqojkazuk47p2aj/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/ncurses-6.4-pujsa3jsy37izxsxg3wwveliieltiapp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/nano-5.6-qti5ty2h5eypxxpi2job2ke6cfcynphx/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/expat-2.5.0-lsizq6acgtil4mjnvag5t3hmekx25c2e/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/bzip2-1.0.8-x5pr7ag4lrodvlbbft75zuawjbxoutg2/bin:/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/bin:/gpfs/helios/home/joshua1/miniconda3/condabin:/gpfs/helios/home/joshua1/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/bin/remote-cli:/gpfs/helios/home/joshua1/.local/bin:/gpfs/helios/home/joshua1/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/gpfs/helios/home/joshua1/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'\''
+export CONDA_PREFIX='\''/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''lidar_project'\''
+export CONDA_PROMPT_MODIFIER='\''(lidar_project) '\''
+export CONDA_PREFIX_1='\''/gpfs/helios/home/joshua1/miniconda3'\''
+export CONDA_EXE='\''/gpfs/helios/home/joshua1/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/gpfs/helios/home/joshua1/miniconda3/bin/python'\''
+. "/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/conda/activate.d/libglib_activate.sh"
+. "/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/conda/activate.d/libxml2_activate.sh"
+. "/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/conda/activate.d/openmpi_activate.sh"
+. "/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/conda/activate.d/proj4-activate.sh"'
+++ PS1='(lidar_project) '
+++ export PATH=/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/python-3.10.10-3j6wnhbwph7zw6owxfwjz5s4suqcrhpy/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/util-linux-uuid-2.38.1-oeknafsexcwluqat67nfoddiposd4ing/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/sqlite-3.40.1-z53b3mrzges5voj3ryuwl33vtl54vmka/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/openssl-1.1.1t-zpyus53f7y64jqao22slxirp5bxkn5on/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gettext-0.21.1-v5zziaiiog3seiwjht6xxekhhgxlyaux/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/tar-1.34-di6jneviksahpugteew3nw7xylmdvln6/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/zstd-1.5.5-uwoud5bnp4pbg3smixk53sikgtonk724/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/pigz-2.7-kt6friwwtt5vaf4vrdarksazspz7ymb4/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libxml2-2.10.3-dwua3qyvnjuw4gr5e647vz7excjs7fcl/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/xz-5.4.1-s3xazj4yfqkj7pa3stqp7jmvkuruajys/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libiconv-1.17-jnbsfi7vg5lpmnduzz6vd53fwo2cmioe/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gdbm-1.19-nl4imdi2at5wxpvmczcvg2zn7qv3q3wp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/readline-8.2-3hr2vfg4gtk4cgolsuqojkazuk47p2aj/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/ncurses-6.4-pujsa3jsy37izxsxg3wwveliieltiapp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/nano-5.6-qti5ty2h5eypxxpi2job2ke6cfcynphx/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/expat-2.5.0-lsizq6acgtil4mjnvag5t3hmekx25c2e/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/bzip2-1.0.8-x5pr7ag4lrodvlbbft75zuawjbxoutg2/bin:/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/bin:/gpfs/helios/home/joshua1/miniconda3/condabin:/gpfs/helios/home/joshua1/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/bin/remote-cli:/gpfs/helios/home/joshua1/.local/bin:/gpfs/helios/home/joshua1/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/gpfs/helios/home/joshua1/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand
+++ PATH=/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/python-3.10.10-3j6wnhbwph7zw6owxfwjz5s4suqcrhpy/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/util-linux-uuid-2.38.1-oeknafsexcwluqat67nfoddiposd4ing/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/sqlite-3.40.1-z53b3mrzges5voj3ryuwl33vtl54vmka/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/openssl-1.1.1t-zpyus53f7y64jqao22slxirp5bxkn5on/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gettext-0.21.1-v5zziaiiog3seiwjht6xxekhhgxlyaux/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/tar-1.34-di6jneviksahpugteew3nw7xylmdvln6/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/zstd-1.5.5-uwoud5bnp4pbg3smixk53sikgtonk724/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/pigz-2.7-kt6friwwtt5vaf4vrdarksazspz7ymb4/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libxml2-2.10.3-dwua3qyvnjuw4gr5e647vz7excjs7fcl/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/xz-5.4.1-s3xazj4yfqkj7pa3stqp7jmvkuruajys/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libiconv-1.17-jnbsfi7vg5lpmnduzz6vd53fwo2cmioe/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gdbm-1.19-nl4imdi2at5wxpvmczcvg2zn7qv3q3wp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/readline-8.2-3hr2vfg4gtk4cgolsuqojkazuk47p2aj/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/ncurses-6.4-pujsa3jsy37izxsxg3wwveliieltiapp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/nano-5.6-qti5ty2h5eypxxpi2job2ke6cfcynphx/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/expat-2.5.0-lsizq6acgtil4mjnvag5t3hmekx25c2e/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/bzip2-1.0.8-x5pr7ag4lrodvlbbft75zuawjbxoutg2/bin:/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/bin:/gpfs/helios/home/joshua1/miniconda3/condabin:/gpfs/helios/home/joshua1/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/bin/remote-cli:/gpfs/helios/home/joshua1/.local/bin:/gpfs/helios/home/joshua1/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/gpfs/helios/home/joshua1/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand
+++ export CONDA_PREFIX=/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project
+++ CONDA_PREFIX=/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=lidar_project
+++ CONDA_DEFAULT_ENV=lidar_project
+++ export 'CONDA_PROMPT_MODIFIER=(lidar_project) '
+++ CONDA_PROMPT_MODIFIER='(lidar_project) '
+++ export CONDA_PREFIX_1=/gpfs/helios/home/joshua1/miniconda3
+++ CONDA_PREFIX_1=/gpfs/helios/home/joshua1/miniconda3
+++ export CONDA_EXE=/gpfs/helios/home/joshua1/miniconda3/bin/conda
+++ CONDA_EXE=/gpfs/helios/home/joshua1/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/gpfs/helios/home/joshua1/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/gpfs/helios/home/joshua1/miniconda3/bin/python
+++ . /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/conda/activate.d/libglib_activate.sh
++++ export GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ export GSETTINGS_SCHEMA_DIR=/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/share/glib-2.0/schemas
++++ GSETTINGS_SCHEMA_DIR=/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/share/glib-2.0/schemas
+++ . /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/conda/activate.d/libxml2_activate.sh
++++ test -n ''
++++ xml_catalog_files_libxml2=
++++ XML_CATALOG_FILES=
++++ conda_catalog_files=
++++ ifs_libxml2=' 	
+'
++++ IFS=' '
++++ rem=/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project
++++ for pre in ${rem}
++++ test '' = /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project
++++ conda_catalog_files=/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project
++++ rem=
++++ IFS=' 	
+'
++++ conda_catalog_files='file:///gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/xml/catalog file:///etc/xml/catalog'
++++ export 'XML_CATALOG_FILES=file:///gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/xml/catalog file:///etc/xml/catalog'
++++ XML_CATALOG_FILES='file:///gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/xml/catalog file:///etc/xml/catalog'
++++ unset conda_catalog_files ifs_libxml2 rem
+++ . /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/conda/activate.d/openmpi_activate.sh
++++ '[' '' = 1 ']'
+++ . /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/conda/activate.d/proj4-activate.sh
++++ '[' -n '' ']'
++++ '[' -d /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/share/proj ']'
++++ export PROJ_DATA=/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/share/proj
++++ PROJ_DATA=/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/share/proj
++++ '[' -f /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/share/proj/copyright_and_licenses.csv ']'
++++ export PROJ_NETWORK=ON
++++ PROJ_NETWORK=ON
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ mkdir /gpfs/space/projects/mlcourse/2024/t18-lidar/ground_removed_scenes/2024-03-25-15-40-16_mapping_tartu/non_ground_video
++ python generate_video.py --input_dir /gpfs/space/projects/mlcourse/2024/t18-lidar/ground_removed_scenes/2024-03-25-15-40-16_mapping_tartu/non_ground_points --output_dir /gpfs/space/projects/mlcourse/2024/t18-lidar/ground_removed_scenes/2024-03-25-15-40-16_mapping_tartu/non_ground_video --video_name output_video.mp4 --fps 30 --voxel_size 0.5 --max_correspondence_distance 2.0 --color_by z
+Traceback (most recent call last):
+  File "/gpfs/helios/home/joshua1/code/ut-ml-t18-lidar/generate_video.py", line 15, in <module>
+    import open3d as o3d
+ModuleNotFoundError: No module named 'open3d'
++ conda deactivate
++ local cmd=deactivate
++ case "$cmd" in
++ __conda_activate deactivate
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(lidar_project) '
+++ __conda_exe shell.posix deactivate
+++ /gpfs/helios/home/joshua1/miniconda3/bin/conda shell.posix deactivate
++ ask_conda='export PATH='\''/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/python-3.10.10-3j6wnhbwph7zw6owxfwjz5s4suqcrhpy/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/util-linux-uuid-2.38.1-oeknafsexcwluqat67nfoddiposd4ing/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/sqlite-3.40.1-z53b3mrzges5voj3ryuwl33vtl54vmka/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/openssl-1.1.1t-zpyus53f7y64jqao22slxirp5bxkn5on/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gettext-0.21.1-v5zziaiiog3seiwjht6xxekhhgxlyaux/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/tar-1.34-di6jneviksahpugteew3nw7xylmdvln6/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/zstd-1.5.5-uwoud5bnp4pbg3smixk53sikgtonk724/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/pigz-2.7-kt6friwwtt5vaf4vrdarksazspz7ymb4/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libxml2-2.10.3-dwua3qyvnjuw4gr5e647vz7excjs7fcl/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/xz-5.4.1-s3xazj4yfqkj7pa3stqp7jmvkuruajys/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libiconv-1.17-jnbsfi7vg5lpmnduzz6vd53fwo2cmioe/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gdbm-1.19-nl4imdi2at5wxpvmczcvg2zn7qv3q3wp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/readline-8.2-3hr2vfg4gtk4cgolsuqojkazuk47p2aj/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/ncurses-6.4-pujsa3jsy37izxsxg3wwveliieltiapp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/nano-5.6-qti5ty2h5eypxxpi2job2ke6cfcynphx/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/expat-2.5.0-lsizq6acgtil4mjnvag5t3hmekx25c2e/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/bzip2-1.0.8-x5pr7ag4lrodvlbbft75zuawjbxoutg2/bin:/gpfs/helios/home/joshua1/miniconda3/bin:/gpfs/helios/home/joshua1/miniconda3/condabin:/gpfs/helios/home/joshua1/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/bin/remote-cli:/gpfs/helios/home/joshua1/.local/bin:/gpfs/helios/home/joshua1/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/gpfs/helios/home/joshua1/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'\''
+. "/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/conda/deactivate.d/proj4-deactivate.sh"
+. "/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/conda/deactivate.d/libxml2_deactivate.sh"
+. "/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/conda/deactivate.d/libglib_deactivate.sh"
+unset CONDA_PREFIX_1
+PS1='\''(base) '\''
+export CONDA_PREFIX='\''/gpfs/helios/home/joshua1/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/gpfs/helios/home/joshua1/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/gpfs/helios/home/joshua1/miniconda3/bin/python'\'''
++ eval 'export PATH='\''/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/python-3.10.10-3j6wnhbwph7zw6owxfwjz5s4suqcrhpy/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/util-linux-uuid-2.38.1-oeknafsexcwluqat67nfoddiposd4ing/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/sqlite-3.40.1-z53b3mrzges5voj3ryuwl33vtl54vmka/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/openssl-1.1.1t-zpyus53f7y64jqao22slxirp5bxkn5on/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gettext-0.21.1-v5zziaiiog3seiwjht6xxekhhgxlyaux/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/tar-1.34-di6jneviksahpugteew3nw7xylmdvln6/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/zstd-1.5.5-uwoud5bnp4pbg3smixk53sikgtonk724/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/pigz-2.7-kt6friwwtt5vaf4vrdarksazspz7ymb4/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libxml2-2.10.3-dwua3qyvnjuw4gr5e647vz7excjs7fcl/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/xz-5.4.1-s3xazj4yfqkj7pa3stqp7jmvkuruajys/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libiconv-1.17-jnbsfi7vg5lpmnduzz6vd53fwo2cmioe/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gdbm-1.19-nl4imdi2at5wxpvmczcvg2zn7qv3q3wp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/readline-8.2-3hr2vfg4gtk4cgolsuqojkazuk47p2aj/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/ncurses-6.4-pujsa3jsy37izxsxg3wwveliieltiapp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/nano-5.6-qti5ty2h5eypxxpi2job2ke6cfcynphx/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/expat-2.5.0-lsizq6acgtil4mjnvag5t3hmekx25c2e/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/bzip2-1.0.8-x5pr7ag4lrodvlbbft75zuawjbxoutg2/bin:/gpfs/helios/home/joshua1/miniconda3/bin:/gpfs/helios/home/joshua1/miniconda3/condabin:/gpfs/helios/home/joshua1/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/bin/remote-cli:/gpfs/helios/home/joshua1/.local/bin:/gpfs/helios/home/joshua1/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/gpfs/helios/home/joshua1/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'\''
+. "/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/conda/deactivate.d/proj4-deactivate.sh"
+. "/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/conda/deactivate.d/libxml2_deactivate.sh"
+. "/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/conda/deactivate.d/libglib_deactivate.sh"
+unset CONDA_PREFIX_1
+PS1='\''(base) '\''
+export CONDA_PREFIX='\''/gpfs/helios/home/joshua1/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/gpfs/helios/home/joshua1/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/gpfs/helios/home/joshua1/miniconda3/bin/python'\'''
+++ export PATH=/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/python-3.10.10-3j6wnhbwph7zw6owxfwjz5s4suqcrhpy/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/util-linux-uuid-2.38.1-oeknafsexcwluqat67nfoddiposd4ing/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/sqlite-3.40.1-z53b3mrzges5voj3ryuwl33vtl54vmka/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/openssl-1.1.1t-zpyus53f7y64jqao22slxirp5bxkn5on/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gettext-0.21.1-v5zziaiiog3seiwjht6xxekhhgxlyaux/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/tar-1.34-di6jneviksahpugteew3nw7xylmdvln6/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/zstd-1.5.5-uwoud5bnp4pbg3smixk53sikgtonk724/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/pigz-2.7-kt6friwwtt5vaf4vrdarksazspz7ymb4/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libxml2-2.10.3-dwua3qyvnjuw4gr5e647vz7excjs7fcl/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/xz-5.4.1-s3xazj4yfqkj7pa3stqp7jmvkuruajys/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libiconv-1.17-jnbsfi7vg5lpmnduzz6vd53fwo2cmioe/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gdbm-1.19-nl4imdi2at5wxpvmczcvg2zn7qv3q3wp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/readline-8.2-3hr2vfg4gtk4cgolsuqojkazuk47p2aj/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/ncurses-6.4-pujsa3jsy37izxsxg3wwveliieltiapp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/nano-5.6-qti5ty2h5eypxxpi2job2ke6cfcynphx/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/expat-2.5.0-lsizq6acgtil4mjnvag5t3hmekx25c2e/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/bzip2-1.0.8-x5pr7ag4lrodvlbbft75zuawjbxoutg2/bin:/gpfs/helios/home/joshua1/miniconda3/bin:/gpfs/helios/home/joshua1/miniconda3/condabin:/gpfs/helios/home/joshua1/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/bin/remote-cli:/gpfs/helios/home/joshua1/.local/bin:/gpfs/helios/home/joshua1/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/gpfs/helios/home/joshua1/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand
+++ PATH=/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/python-3.10.10-3j6wnhbwph7zw6owxfwjz5s4suqcrhpy/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/util-linux-uuid-2.38.1-oeknafsexcwluqat67nfoddiposd4ing/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/sqlite-3.40.1-z53b3mrzges5voj3ryuwl33vtl54vmka/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/openssl-1.1.1t-zpyus53f7y64jqao22slxirp5bxkn5on/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gettext-0.21.1-v5zziaiiog3seiwjht6xxekhhgxlyaux/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/tar-1.34-di6jneviksahpugteew3nw7xylmdvln6/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/zstd-1.5.5-uwoud5bnp4pbg3smixk53sikgtonk724/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/pigz-2.7-kt6friwwtt5vaf4vrdarksazspz7ymb4/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libxml2-2.10.3-dwua3qyvnjuw4gr5e647vz7excjs7fcl/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/xz-5.4.1-s3xazj4yfqkj7pa3stqp7jmvkuruajys/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/libiconv-1.17-jnbsfi7vg5lpmnduzz6vd53fwo2cmioe/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/gdbm-1.19-nl4imdi2at5wxpvmczcvg2zn7qv3q3wp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/readline-8.2-3hr2vfg4gtk4cgolsuqojkazuk47p2aj/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/ncurses-6.4-pujsa3jsy37izxsxg3wwveliieltiapp/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/nano-5.6-qti5ty2h5eypxxpi2job2ke6cfcynphx/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/expat-2.5.0-lsizq6acgtil4mjnvag5t3hmekx25c2e/bin:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/bzip2-1.0.8-x5pr7ag4lrodvlbbft75zuawjbxoutg2/bin:/gpfs/helios/home/joshua1/miniconda3/bin:/gpfs/helios/home/joshua1/miniconda3/condabin:/gpfs/helios/home/joshua1/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/bin/remote-cli:/gpfs/helios/home/joshua1/.local/bin:/gpfs/helios/home/joshua1/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/gpfs/helios/home/joshua1/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand
+++ . /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/conda/deactivate.d/proj4-deactivate.sh
++++ unset PROJ_DATA
++++ unset PROJ_NETWORK
++++ '[' -n '' ']'
+++ . /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/conda/deactivate.d/libxml2_deactivate.sh
++++ test -n ''
++++ unset XML_CATALOG_FILES
++++ unset xml_catalog_files_libxml2
+++ . /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ unset CONDA_PREFIX_1
+++ PS1='(base) '
+++ export CONDA_PREFIX=/gpfs/helios/home/joshua1/miniconda3
+++ CONDA_PREFIX=/gpfs/helios/home/joshua1/miniconda3
+++ export CONDA_SHLVL=1
+++ CONDA_SHLVL=1
+++ export CONDA_DEFAULT_ENV=base
+++ CONDA_DEFAULT_ENV=base
+++ export 'CONDA_PROMPT_MODIFIER=(base) '
+++ CONDA_PROMPT_MODIFIER='(base) '
+++ export CONDA_EXE=/gpfs/helios/home/joshua1/miniconda3/bin/conda
+++ CONDA_EXE=/gpfs/helios/home/joshua1/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/gpfs/helios/home/joshua1/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/gpfs/helios/home/joshua1/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r

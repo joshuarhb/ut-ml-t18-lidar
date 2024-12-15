@@ -1,0 +1,6 @@
+WARNING: typer 0.15.1 does not provide the extra 'all'
+Usage: kiss_icp_pipeline [OPTIONS] DATA
+Try 'kiss_icp_pipeline --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ No such option: --input_path                                                 │
+╰──────────────────────────────────────────────────────────────────────────────╯

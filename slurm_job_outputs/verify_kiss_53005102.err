@@ -1,0 +1,7 @@
+
+CondaSystemExit: Exiting.
+
+Traceback (most recent call last):
+  File "verify_kiss.py", line 61, in <module>
+    if i == pcd_list - 1:
+TypeError: unsupported operand type(s) for -: 'list' and 'int'

@@ -1,0 +1,8 @@
+ERROR: Ignored the following versions that require a different python version: 1.21.2 Requires-Python >=3.7,<3.11; 1.21.3 Requires-Python >=3.7,<3.11; 1.21.4 Requires-Python >=3.7,<3.11; 1.21.5 Requires-Python >=3.7,<3.11; 1.21.6 Requires-Python >=3.7,<3.11
+ERROR: Could not find a version that satisfies the requirement open3d==0.18.0 (from versions: none)
+ERROR: No matching distribution found for open3d==0.18.0
+Traceback (most recent call last):
+  File "/gpfs/helios/home/joshua1/code/ut-ml-t18-lidar/verify_kiss/verify_kiss.py", line 91, in <module>
+    _, idx, d = next_pcd.search_knn_vector_3d(point, 1)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'open3d.cpu.pybind.geometry.PointCloud' object has no attribute 'search_knn_vector_3d'

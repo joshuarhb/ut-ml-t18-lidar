@@ -1,0 +1,3 @@
+WARNING: typer 0.15.1 does not provide the extra 'all'
+/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages/kiss_icp/datasets/ncd.py:75: SyntaxWarning: invalid escape sequence '\d'
+  regex = re.compile("^cloud_(\d*_\d*)")

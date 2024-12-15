@@ -1,0 +1,6 @@
++ set -e
++ set -u
++ set -o pipefail
++ command -v conda
++ echo 'Error: conda not found'
++ exit 1

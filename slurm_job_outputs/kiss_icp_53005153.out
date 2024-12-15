@@ -1,0 +1,81 @@
+Requirement already satisfied: kiss-icp[all] in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (1.1.0)
+Requirement already satisfied: natsort in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from kiss-icp[all]) (8.4.0)
+Requirement already satisfied: numpy in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from kiss-icp[all]) (2.0.1)
+Requirement already satisfied: plyfile in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from kiss-icp[all]) (1.1)
+Requirement already satisfied: pydantic>=2 in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from kiss-icp[all]) (2.10.3)
+Requirement already satisfied: pydantic-settings in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from kiss-icp[all]) (2.7.0)
+Requirement already satisfied: pyquaternion in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from kiss-icp[all]) (0.9.9)
+Requirement already satisfied: rich in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from kiss-icp[all]) (13.9.4)
+Requirement already satisfied: tqdm in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from kiss-icp[all]) (4.67.1)
+Requirement already satisfied: typer>=0.6.0 in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from typer[all]>=0.6.0->kiss-icp[all]) (0.15.1)
+INFO: pip is looking at multiple versions of kiss-icp[all] to determine which version is compatible with other requirements. This could take a while.
+Collecting kiss-icp[all]
+  Using cached kiss_icp-1.0.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.3 kB)
+  Using cached kiss_icp-0.4.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.1 kB)
+  Using cached kiss_icp-0.3.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.2 kB)
+  Using cached kiss_icp-0.2.10.tar.gz (40 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+                                                                                
+ Usage: kiss_icp_pipeline [OPTIONS] DATA                                        
+                                                                                
+ 💋 KISS-ICP, a simple yet effective LiDAR-Odometry estimation pipeline 💋      
+                                                                                
+ Examples:                                                                      
+ # Process all pointclouds in the given <data-dir> [bin, pcd, ply, xyz, obj,    
+ ctm, off, stl]                                                                 
+ $ kiss_icp_pipeline --visualize <data-dir>📂                                   
+                                                                                
+ # Process a given ROS1/ROS2 rosbag file (directory📂, ".bag"📄, or             
+ "metadata.yaml"📄)                                                             
+ $ kiss_icp_pipeline --visualize <path-to-my-rosbag>[📂/📄]                     
+                                                                                
+ # Process mcap  recording                                                      
+ $ kiss_icp_pipeline --visualize <path-to-file.mcap>📄                          
+                                                                                
+ # Process Ouster pcap recording (requires ouster-sdk Python package installed) 
+ $ kiss_icp_pipeline --visualize <path-to-ouster.pcap>📄 [--meta                
+ <path-to-metadata.json>📄]                                                     
+                                                                                
+ # Use a more specific dataloader: apollo, boreas, helipr, kitti, kitti_raw,    
+ mulran, ncd, nclt, nuscenes, paris_luco, tum                                   
+ $ kiss_icp_pipeline --dataloader kitti --sequence 07 --visualize               
+ <path-to-kitti-root>📂                                                         
+                                                                                
+ # To change single config parameters on-the-fly, you can export them           
+ beforehand:                                                                    
+ $ export kiss_icp_out_dir='<path-to-logs>📂'                                   
+ $ export kiss_icp_data='{"max_range": 50}'                                     
+                                                                                
+╭─ Arguments ──────────────────────────────────────────────────────────────────╮
+│ *    data      PATH  The data directory used by the specified dataloader     │
+│                      [required]                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭─ Options ────────────────────────────────────────────────────────────────────╮
+│ --dataloader        TEXT   [Optional] Use a specific dataloader from those   │
+│                            supported by KISS-ICP                             │
+│ --config            PATH   [Optional] Path to the configuration file         │
+│ --max_range         FLOAT  [Optional] Overrides the max_range from the       │
+│                            default configuration                             │
+│ --deskew                   [Optional] Whether or not to deskew the scan or   │
+│                            not                                               │
+│ --version                  Show the current version of KISS-ICP              │
+│ --help                     Show this message and exit.                       │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭─ Additional Options ─────────────────────────────────────────────────────────╮
+│ --visualize  -v               [Optional] Open an online visualization of the │
+│                               KISS-ICP pipeline                              │
+│ --sequence   -s      TEXT     [Optional] For some dataloaders, you need to   │
+│                               specify a given sequence                       │
+│ --topic      -t      TEXT     [Optional] Only valid when processing rosbag   │
+│                               files                                          │
+│ --n-scans    -n      INTEGER  [Optional] Specify the number of scans to      │
+│                               process, default is the entire dataset         │
+│ --jump       -j      INTEGER  [Optional] Specify if you want to start to     │
+│                               process scans from a given starting point      │
+│ --meta       -m      PATH     [Optional] For Ouster pcap dataloader, specify │
+│                               metadata json file path explicitly             │
+╰──────────────────────────────────────────────────────────────────────────────╯
+

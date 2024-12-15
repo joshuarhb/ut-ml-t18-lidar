@@ -1,0 +1,2892 @@
+Retrieving notices: ...working... done
+Channels:
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /gpfs/helios/home/joshua1/miniconda3/envs/o3d
+
+  added / updated specs:
+    - python=3.8
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2024.11.26 |       h06a4308_0         131 KB
+    pip-24.2                   |   py38h06a4308_0         2.2 MB
+    python-3.8.20              |       he870216_0        23.8 MB
+    setuptools-75.1.0          |   py38h06a4308_0         1.7 MB
+    wheel-0.44.0               |   py38h06a4308_0         108 KB
+    ------------------------------------------------------------
+                                           Total:        27.9 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main 
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu 
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2024.11.26-h06a4308_0 
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.40-h12ee557_0 
+  libffi             pkgs/main/linux-64::libffi-3.4.4-h6a678d5_1 
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1 
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1 
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1 
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0 
+  openssl            pkgs/main/linux-64::openssl-3.0.15-h5eee18b_0 
+  pip                pkgs/main/linux-64::pip-24.2-py38h06a4308_0 
+  python             pkgs/main/linux-64::python-3.8.20-he870216_0 
+  readline           pkgs/main/linux-64::readline-8.2-h5eee18b_0 
+  setuptools         pkgs/main/linux-64::setuptools-75.1.0-py38h06a4308_0 
+  sqlite             pkgs/main/linux-64::sqlite-3.45.3-h5eee18b_0 
+  tk                 pkgs/main/linux-64::tk-8.6.14-h39e8969_0 
+  wheel              pkgs/main/linux-64::wheel-0.44.0-py38h06a4308_0 
+  xz                 pkgs/main/linux-64::xz-5.4.6-h5eee18b_1 
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_1 
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages: ...working... done
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate o3d
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Collecting open3d==0.15.2
+  Downloading open3d-0.15.2-cp38-cp38-manylinux_2_27_x86_64.whl.metadata (4.1 kB)
+Collecting numpy
+  Downloading numpy-1.24.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.6 kB)
+Collecting matplotlib
+  Downloading matplotlib-3.7.5-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (5.7 kB)
+Requirement already satisfied: setuptools>=40.8.0 in /gpfs/helios/home/joshua1/miniconda3/envs/o3d/lib/python3.8/site-packages (from open3d==0.15.2) (75.1.0)
+Requirement already satisfied: wheel>=0.36.0 in /gpfs/helios/home/joshua1/miniconda3/envs/o3d/lib/python3.8/site-packages (from open3d==0.15.2) (0.44.0)
+Collecting ipywidgets>=7.6.0 (from open3d==0.15.2)
+  Downloading ipywidgets-8.1.5-py3-none-any.whl.metadata (2.3 kB)
+Collecting pygments>=2.7.4 (from open3d==0.15.2)
+  Using cached pygments-2.18.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting jupyter-packaging~=0.10 (from open3d==0.15.2)
+  Downloading jupyter_packaging-0.12.3-py3-none-any.whl.metadata (7.7 kB)
+Collecting jupyterlab==3.*,>=3.0.0 (from open3d==0.15.2)
+  Downloading jupyterlab-3.6.8-py3-none-any.whl.metadata (12 kB)
+Collecting addict (from open3d==0.15.2)
+  Using cached addict-2.4.0-py3-none-any.whl.metadata (1.0 kB)
+Collecting pillow>=8.2.0 (from open3d==0.15.2)
+  Downloading pillow-10.4.0-cp38-cp38-manylinux_2_28_x86_64.whl.metadata (9.2 kB)
+Collecting pandas>=1.0 (from open3d==0.15.2)
+  Downloading pandas-2.0.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (18 kB)
+Collecting pyyaml>=5.4.1 (from open3d==0.15.2)
+  Downloading PyYAML-6.0.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.1 kB)
+Collecting scikit-learn>=0.21 (from open3d==0.15.2)
+  Downloading scikit_learn-1.3.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+Collecting tqdm (from open3d==0.15.2)
+  Using cached tqdm-4.67.1-py3-none-any.whl.metadata (57 kB)
+Collecting pyquaternion (from open3d==0.15.2)
+  Using cached pyquaternion-0.9.9-py3-none-any.whl.metadata (1.4 kB)
+Collecting ipython (from jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading ipython-8.12.3-py3-none-any.whl.metadata (5.7 kB)
+Collecting packaging (from jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Using cached packaging-24.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting tornado>=6.1.0 (from jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading tornado-6.4.2-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.5 kB)
+Collecting jupyter-core (from jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading jupyter_core-5.7.2-py3-none-any.whl.metadata (3.4 kB)
+Collecting jupyterlab-server~=2.19 (from jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading jupyterlab_server-2.27.3-py3-none-any.whl.metadata (5.9 kB)
+Collecting jupyter-server<3,>=1.16.0 (from jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading jupyter_server-2.14.2-py3-none-any.whl.metadata (8.4 kB)
+Collecting jupyter-ydoc~=0.2.4 (from jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading jupyter_ydoc-0.2.5-py3-none-any.whl.metadata (2.2 kB)
+Collecting jupyter-server-ydoc~=0.8.0 (from jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading jupyter_server_ydoc-0.8.0-py3-none-any.whl.metadata (5.3 kB)
+Collecting nbclassic (from jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading nbclassic-1.1.0-py3-none-any.whl.metadata (3.6 kB)
+Collecting notebook<7 (from jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading notebook-6.5.7-py3-none-any.whl.metadata (2.5 kB)
+Collecting jinja2>=2.1 (from jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading jinja2-3.1.4-py3-none-any.whl.metadata (2.6 kB)
+Collecting tomli (from jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading tomli-2.2.1-py3-none-any.whl.metadata (10 kB)
+Collecting contourpy>=1.0.1 (from matplotlib)
+  Downloading contourpy-1.1.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.9 kB)
+Collecting cycler>=0.10 (from matplotlib)
+  Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.22.0 (from matplotlib)
+  Downloading fonttools-4.55.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (165 kB)
+Collecting kiwisolver>=1.0.1 (from matplotlib)
+  Downloading kiwisolver-1.4.7-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl.metadata (6.3 kB)
+Collecting pyparsing>=2.3.1 (from matplotlib)
+  Downloading pyparsing-3.1.4-py3-none-any.whl.metadata (5.1 kB)
+Collecting python-dateutil>=2.7 (from matplotlib)
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting importlib-resources>=3.2.0 (from matplotlib)
+  Downloading importlib_resources-6.4.5-py3-none-any.whl.metadata (4.0 kB)
+Collecting zipp>=3.1.0 (from importlib-resources>=3.2.0->matplotlib)
+  Downloading zipp-3.20.2-py3-none-any.whl.metadata (3.7 kB)
+Collecting comm>=0.1.3 (from ipywidgets>=7.6.0->open3d==0.15.2)
+  Downloading comm-0.2.2-py3-none-any.whl.metadata (3.7 kB)
+Collecting traitlets>=4.3.1 (from ipywidgets>=7.6.0->open3d==0.15.2)
+  Downloading traitlets-5.14.3-py3-none-any.whl.metadata (10 kB)
+Collecting widgetsnbextension~=4.0.12 (from ipywidgets>=7.6.0->open3d==0.15.2)
+  Downloading widgetsnbextension-4.0.13-py3-none-any.whl.metadata (1.6 kB)
+Collecting jupyterlab-widgets~=3.0.12 (from ipywidgets>=7.6.0->open3d==0.15.2)
+  Downloading jupyterlab_widgets-3.0.13-py3-none-any.whl.metadata (4.1 kB)
+Collecting deprecation (from jupyter-packaging~=0.10->open3d==0.15.2)
+  Downloading deprecation-2.1.0-py2.py3-none-any.whl.metadata (4.6 kB)
+Collecting tomlkit (from jupyter-packaging~=0.10->open3d==0.15.2)
+  Downloading tomlkit-0.13.2-py3-none-any.whl.metadata (2.7 kB)
+Collecting pytz>=2020.1 (from pandas>=1.0->open3d==0.15.2)
+  Downloading pytz-2024.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.1 (from pandas>=1.0->open3d==0.15.2)
+  Downloading tzdata-2024.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting six>=1.5 (from python-dateutil>=2.7->matplotlib)
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting scipy>=1.5.0 (from scikit-learn>=0.21->open3d==0.15.2)
+  Downloading scipy-1.10.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (58 kB)
+Collecting joblib>=1.1.1 (from scikit-learn>=0.21->open3d==0.15.2)
+  Using cached joblib-1.4.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting threadpoolctl>=2.0.0 (from scikit-learn>=0.21->open3d==0.15.2)
+  Downloading threadpoolctl-3.5.0-py3-none-any.whl.metadata (13 kB)
+Collecting backcall (from ipython->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading backcall-0.2.0-py2.py3-none-any.whl.metadata (2.0 kB)
+Collecting decorator (from ipython->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading decorator-5.1.1-py3-none-any.whl.metadata (4.0 kB)
+Collecting jedi>=0.16 (from ipython->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Using cached jedi-0.19.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting matplotlib-inline (from ipython->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading matplotlib_inline-0.1.7-py3-none-any.whl.metadata (3.9 kB)
+Collecting pickleshare (from ipython->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading pickleshare-0.7.5-py2.py3-none-any.whl.metadata (1.5 kB)
+Collecting prompt-toolkit!=3.0.37,<3.1.0,>=3.0.30 (from ipython->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading prompt_toolkit-3.0.48-py3-none-any.whl.metadata (6.4 kB)
+Collecting stack-data (from ipython->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading stack_data-0.6.3-py3-none-any.whl.metadata (18 kB)
+Collecting typing-extensions (from ipython->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Using cached typing_extensions-4.12.2-py3-none-any.whl.metadata (3.0 kB)
+Collecting pexpect>4.3 (from ipython->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading pexpect-4.9.0-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting MarkupSafe>=2.0 (from jinja2>=2.1->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading MarkupSafe-2.1.5-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.0 kB)
+Collecting anyio>=3.1.0 (from jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading anyio-4.5.2-py3-none-any.whl.metadata (4.7 kB)
+Collecting argon2-cffi>=21.1 (from jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading argon2_cffi-23.1.0-py3-none-any.whl.metadata (5.2 kB)
+Collecting jupyter-client>=7.4.4 (from jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading jupyter_client-8.6.3-py3-none-any.whl.metadata (8.3 kB)
+Collecting jupyter-events>=0.9.0 (from jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading jupyter_events-0.10.0-py3-none-any.whl.metadata (5.9 kB)
+Collecting jupyter-server-terminals>=0.4.4 (from jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading jupyter_server_terminals-0.5.3-py3-none-any.whl.metadata (5.6 kB)
+Collecting nbconvert>=6.4.4 (from jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading nbconvert-7.16.4-py3-none-any.whl.metadata (8.5 kB)
+Collecting nbformat>=5.3.0 (from jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading nbformat-5.10.4-py3-none-any.whl.metadata (3.6 kB)
+Collecting overrides>=5.0 (from jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading overrides-7.7.0-py3-none-any.whl.metadata (5.8 kB)
+Collecting prometheus-client>=0.9 (from jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading prometheus_client-0.21.1-py3-none-any.whl.metadata (1.8 kB)
+Collecting pyzmq>=24 (from jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading pyzmq-26.2.0-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (6.2 kB)
+Collecting send2trash>=1.8.2 (from jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading Send2Trash-1.8.3-py3-none-any.whl.metadata (4.0 kB)
+Collecting terminado>=0.8.3 (from jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading terminado-0.18.1-py3-none-any.whl.metadata (5.8 kB)
+Collecting websocket-client>=1.7 (from jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading websocket_client-1.8.0-py3-none-any.whl.metadata (8.0 kB)
+Collecting platformdirs>=2.5 (from jupyter-core->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading platformdirs-4.3.6-py3-none-any.whl.metadata (11 kB)
+Collecting jupyter-server-fileid<1,>=0.6.0 (from jupyter-server-ydoc~=0.8.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading jupyter_server_fileid-0.9.3-py3-none-any.whl.metadata (4.7 kB)
+Collecting ypy-websocket<0.9.0,>=0.8.2 (from jupyter-server-ydoc~=0.8.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading ypy_websocket-0.8.4-py3-none-any.whl.metadata (2.5 kB)
+Collecting importlib-metadata>=3.6 (from jupyter-ydoc~=0.2.4->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading importlib_metadata-8.5.0-py3-none-any.whl.metadata (4.8 kB)
+Collecting y-py<0.7.0,>=0.6.0 (from jupyter-ydoc~=0.2.4->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading y_py-0.6.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.6 kB)
+Collecting babel>=2.10 (from jupyterlab-server~=2.19->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading babel-2.16.0-py3-none-any.whl.metadata (1.5 kB)
+Collecting json5>=0.9.0 (from jupyterlab-server~=2.19->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading json5-0.10.0-py3-none-any.whl.metadata (34 kB)
+Collecting jsonschema>=4.18.0 (from jupyterlab-server~=2.19->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading jsonschema-4.23.0-py3-none-any.whl.metadata (7.9 kB)
+Collecting requests>=2.31 (from jupyterlab-server~=2.19->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading requests-2.32.3-py3-none-any.whl.metadata (4.6 kB)
+Collecting jupyter-client>=7.4.4 (from jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading jupyter_client-7.4.9-py3-none-any.whl.metadata (8.5 kB)
+Collecting ipython-genutils (from notebook<7->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading ipython_genutils-0.2.0-py2.py3-none-any.whl.metadata (755 bytes)
+Collecting nest-asyncio>=1.5 (from notebook<7->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading nest_asyncio-1.6.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting ipykernel (from notebook<7->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading ipykernel-6.29.5-py3-none-any.whl.metadata (6.3 kB)
+Collecting notebook-shim>=0.2.3 (from nbclassic->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading notebook_shim-0.2.4-py3-none-any.whl.metadata (4.0 kB)
+Collecting idna>=2.8 (from anyio>=3.1.0->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading idna-3.10-py3-none-any.whl.metadata (10 kB)
+Collecting sniffio>=1.1 (from anyio>=3.1.0->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting exceptiongroup>=1.0.2 (from anyio>=3.1.0->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading exceptiongroup-1.2.2-py3-none-any.whl.metadata (6.6 kB)
+Collecting argon2-cffi-bindings (from argon2-cffi>=21.1->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading argon2_cffi_bindings-21.2.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.7 kB)
+Collecting parso<0.9.0,>=0.8.4 (from jedi>=0.16->ipython->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading parso-0.8.4-py2.py3-none-any.whl.metadata (7.7 kB)
+Collecting attrs>=22.2.0 (from jsonschema>=4.18.0->jupyterlab-server~=2.19->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading attrs-24.2.0-py3-none-any.whl.metadata (11 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=4.18.0->jupyterlab-server~=2.19->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading jsonschema_specifications-2023.12.1-py3-none-any.whl.metadata (3.0 kB)
+Collecting pkgutil-resolve-name>=1.3.10 (from jsonschema>=4.18.0->jupyterlab-server~=2.19->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading pkgutil_resolve_name-1.3.10-py3-none-any.whl.metadata (624 bytes)
+Collecting referencing>=0.28.4 (from jsonschema>=4.18.0->jupyterlab-server~=2.19->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading referencing-0.35.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.7.1 (from jsonschema>=4.18.0->jupyterlab-server~=2.19->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading rpds_py-0.20.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.2 kB)
+Collecting entrypoints (from jupyter-client>=7.4.4->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading entrypoints-0.4-py3-none-any.whl.metadata (2.6 kB)
+Collecting python-json-logger>=2.0.4 (from jupyter-events>=0.9.0->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading python_json_logger-3.2.0-py3-none-any.whl.metadata (4.4 kB)
+Collecting rfc3339-validator (from jupyter-events>=0.9.0->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading rfc3339_validator-0.1.4-py2.py3-none-any.whl.metadata (1.5 kB)
+Collecting rfc3986-validator>=0.1.1 (from jupyter-events>=0.9.0->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading rfc3986_validator-0.1.1-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting beautifulsoup4 (from nbconvert>=6.4.4->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading beautifulsoup4-4.12.3-py3-none-any.whl.metadata (3.8 kB)
+Collecting bleach!=5.0.0 (from nbconvert>=6.4.4->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading bleach-6.1.0-py3-none-any.whl.metadata (30 kB)
+Collecting defusedxml (from nbconvert>=6.4.4->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading defusedxml-0.7.1-py2.py3-none-any.whl.metadata (32 kB)
+Collecting jupyterlab-pygments (from nbconvert>=6.4.4->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading jupyterlab_pygments-0.3.0-py3-none-any.whl.metadata (4.4 kB)
+Collecting mistune<4,>=2.0.3 (from nbconvert>=6.4.4->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading mistune-3.0.2-py3-none-any.whl.metadata (1.7 kB)
+Collecting nbclient>=0.5.0 (from nbconvert>=6.4.4->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading nbclient-0.10.1-py3-none-any.whl.metadata (8.2 kB)
+Collecting pandocfilters>=1.4.1 (from nbconvert>=6.4.4->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading pandocfilters-1.5.1-py2.py3-none-any.whl.metadata (9.0 kB)
+Collecting tinycss2 (from nbconvert>=6.4.4->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading tinycss2-1.4.0-py3-none-any.whl.metadata (3.0 kB)
+Collecting fastjsonschema>=2.15 (from nbformat>=5.3.0->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Using cached fastjsonschema-2.21.1-py3-none-any.whl.metadata (2.2 kB)
+Collecting ptyprocess>=0.5 (from pexpect>4.3->ipython->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading ptyprocess-0.7.0-py2.py3-none-any.whl.metadata (1.3 kB)
+Collecting wcwidth (from prompt-toolkit!=3.0.37,<3.1.0,>=3.0.30->ipython->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading wcwidth-0.2.13-py2.py3-none-any.whl.metadata (14 kB)
+Collecting charset-normalizer<4,>=2 (from requests>=2.31->jupyterlab-server~=2.19->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading charset_normalizer-3.4.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (34 kB)
+Collecting urllib3<3,>=1.21.1 (from requests>=2.31->jupyterlab-server~=2.19->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading urllib3-2.2.3-py3-none-any.whl.metadata (6.5 kB)
+Collecting certifi>=2017.4.17 (from requests>=2.31->jupyterlab-server~=2.19->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Using cached certifi-2024.12.14-py3-none-any.whl.metadata (2.3 kB)
+Collecting aiofiles<23,>=22.1.0 (from ypy-websocket<0.9.0,>=0.8.2->jupyter-server-ydoc~=0.8.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading aiofiles-22.1.0-py3-none-any.whl.metadata (8.0 kB)
+Collecting aiosqlite<1,>=0.17.0 (from ypy-websocket<0.9.0,>=0.8.2->jupyter-server-ydoc~=0.8.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading aiosqlite-0.20.0-py3-none-any.whl.metadata (4.3 kB)
+Collecting debugpy>=1.6.5 (from ipykernel->notebook<7->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading debugpy-1.8.11-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.1 kB)
+Collecting psutil (from ipykernel->notebook<7->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading psutil-6.1.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (22 kB)
+Collecting executing>=1.2.0 (from stack-data->ipython->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading executing-2.1.0-py2.py3-none-any.whl.metadata (8.9 kB)
+Collecting asttokens>=2.1.0 (from stack-data->ipython->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Using cached asttokens-3.0.0-py3-none-any.whl.metadata (4.7 kB)
+Collecting pure-eval (from stack-data->ipython->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading pure_eval-0.2.3-py3-none-any.whl.metadata (6.3 kB)
+Collecting webencodings (from bleach!=5.0.0->nbconvert>=6.4.4->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl.metadata (2.1 kB)
+Collecting fqdn (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading fqdn-1.5.1-py3-none-any.whl.metadata (1.4 kB)
+Collecting isoduration (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading isoduration-20.11.0-py3-none-any.whl.metadata (5.7 kB)
+Collecting jsonpointer>1.13 (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading jsonpointer-3.0.0-py2.py3-none-any.whl.metadata (2.3 kB)
+Collecting uri-template (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading uri_template-1.3.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting webcolors>=24.6.0 (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading webcolors-24.8.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting cffi>=1.0.1 (from argon2-cffi-bindings->argon2-cffi>=21.1->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading cffi-1.17.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting soupsieve>1.2 (from beautifulsoup4->nbconvert>=6.4.4->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading soupsieve-2.6-py3-none-any.whl.metadata (4.6 kB)
+Collecting pycparser (from cffi>=1.0.1->argon2-cffi-bindings->argon2-cffi>=21.1->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading pycparser-2.22-py3-none-any.whl.metadata (943 bytes)
+Collecting arrow>=0.15.0 (from isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading arrow-1.3.0-py3-none-any.whl.metadata (7.5 kB)
+Collecting types-python-dateutil>=2.8.10 (from arrow>=0.15.0->isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=1.16.0->jupyterlab==3.*,>=3.0.0->open3d==0.15.2)
+  Downloading types_python_dateutil-2.9.0.20241206-py3-none-any.whl.metadata (2.1 kB)
+Downloading open3d-0.15.2-cp38-cp38-manylinux_2_27_x86_64.whl (408.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 408.7/408.7 MB 7.3 MB/s eta 0:00:00
+Downloading jupyterlab-3.6.8-py3-none-any.whl (8.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.9/8.9 MB 37.7 MB/s eta 0:00:00
+Downloading numpy-1.24.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.3/17.3 MB 117.9 MB/s eta 0:00:00
+Downloading matplotlib-3.7.5-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (9.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.2/9.2 MB 123.0 MB/s eta 0:00:00
+Downloading contourpy-1.1.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (301 kB)
+Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.55.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.7/4.7 MB 99.8 MB/s eta 0:00:00
+Downloading importlib_resources-6.4.5-py3-none-any.whl (36 kB)
+Downloading ipywidgets-8.1.5-py3-none-any.whl (139 kB)
+Downloading jupyter_packaging-0.12.3-py3-none-any.whl (15 kB)
+Downloading kiwisolver-1.4.7-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 38.7 MB/s eta 0:00:00
+Using cached packaging-24.2-py3-none-any.whl (65 kB)
+Downloading pandas-2.0.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.4/12.4 MB 101.7 MB/s eta 0:00:00
+Downloading pillow-10.4.0-cp38-cp38-manylinux_2_28_x86_64.whl (4.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 104.1 MB/s eta 0:00:00
+Using cached pygments-2.18.0-py3-none-any.whl (1.2 MB)
+Downloading pyparsing-3.1.4-py3-none-any.whl (104 kB)
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading PyYAML-6.0.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (746 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 746.5/746.5 kB 26.2 MB/s eta 0:00:00
+Downloading scikit_learn-1.3.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.1/11.1 MB 92.7 MB/s eta 0:00:00
+Downloading addict-2.4.0-py3-none-any.whl (3.8 kB)
+Using cached pyquaternion-0.9.9-py3-none-any.whl (14 kB)
+Using cached tqdm-4.67.1-py3-none-any.whl (78 kB)
+Downloading comm-0.2.2-py3-none-any.whl (7.2 kB)
+Downloading ipython-8.12.3-py3-none-any.whl (798 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 798.3/798.3 kB 36.5 MB/s eta 0:00:00
+Downloading jinja2-3.1.4-py3-none-any.whl (133 kB)
+Downloading joblib-1.4.2-py3-none-any.whl (301 kB)
+Downloading jupyter_server-2.14.2-py3-none-any.whl (383 kB)
+Downloading jupyter_core-5.7.2-py3-none-any.whl (28 kB)
+Downloading jupyter_server_ydoc-0.8.0-py3-none-any.whl (11 kB)
+Downloading jupyter_ydoc-0.2.5-py3-none-any.whl (6.2 kB)
+Downloading jupyterlab_server-2.27.3-py3-none-any.whl (59 kB)
+Downloading jupyterlab_widgets-3.0.13-py3-none-any.whl (214 kB)
+Downloading notebook-6.5.7-py3-none-any.whl (529 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 529.8/529.8 kB 17.3 MB/s eta 0:00:00
+Downloading nbclassic-1.1.0-py3-none-any.whl (10.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.0/10.0 MB 85.7 MB/s eta 0:00:00
+Downloading pytz-2024.2-py2.py3-none-any.whl (508 kB)
+Downloading scipy-1.10.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (34.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 34.5/34.5 MB 130.8 MB/s eta 0:00:00
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading threadpoolctl-3.5.0-py3-none-any.whl (18 kB)
+Downloading tornado-6.4.2-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (437 kB)
+Downloading traitlets-5.14.3-py3-none-any.whl (85 kB)
+Downloading tzdata-2024.2-py2.py3-none-any.whl (346 kB)
+Downloading widgetsnbextension-4.0.13-py3-none-any.whl (2.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 60.4 MB/s eta 0:00:00
+Downloading zipp-3.20.2-py3-none-any.whl (9.2 kB)
+Downloading deprecation-2.1.0-py2.py3-none-any.whl (11 kB)
+Downloading tomli-2.2.1-py3-none-any.whl (14 kB)
+Downloading tomlkit-0.13.2-py3-none-any.whl (37 kB)
+Downloading anyio-4.5.2-py3-none-any.whl (89 kB)
+Downloading argon2_cffi-23.1.0-py3-none-any.whl (15 kB)
+Downloading babel-2.16.0-py3-none-any.whl (9.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.6/9.6 MB 86.7 MB/s eta 0:00:00
+Downloading importlib_metadata-8.5.0-py3-none-any.whl (26 kB)
+Downloading jedi-0.19.2-py2.py3-none-any.whl (1.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 50.9 MB/s eta 0:00:00
+Downloading json5-0.10.0-py3-none-any.whl (34 kB)
+Downloading jsonschema-4.23.0-py3-none-any.whl (88 kB)
+Downloading jupyter_client-7.4.9-py3-none-any.whl (133 kB)
+Downloading jupyter_events-0.10.0-py3-none-any.whl (18 kB)
+Downloading jupyter_server_fileid-0.9.3-py3-none-any.whl (16 kB)
+Downloading jupyter_server_terminals-0.5.3-py3-none-any.whl (13 kB)
+Downloading MarkupSafe-2.1.5-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (26 kB)
+Downloading nbconvert-7.16.4-py3-none-any.whl (257 kB)
+Downloading nbformat-5.10.4-py3-none-any.whl (78 kB)
+Downloading nest_asyncio-1.6.0-py3-none-any.whl (5.2 kB)
+Downloading notebook_shim-0.2.4-py3-none-any.whl (13 kB)
+Downloading overrides-7.7.0-py3-none-any.whl (17 kB)
+Downloading pexpect-4.9.0-py2.py3-none-any.whl (63 kB)
+Downloading platformdirs-4.3.6-py3-none-any.whl (18 kB)
+Downloading prometheus_client-0.21.1-py3-none-any.whl (54 kB)
+Downloading prompt_toolkit-3.0.48-py3-none-any.whl (386 kB)
+Downloading pyzmq-26.2.0-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (862 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 862.3/862.3 kB 34.8 MB/s eta 0:00:00
+Downloading requests-2.32.3-py3-none-any.whl (64 kB)
+Downloading Send2Trash-1.8.3-py3-none-any.whl (18 kB)
+Downloading terminado-0.18.1-py3-none-any.whl (14 kB)
+Using cached typing_extensions-4.12.2-py3-none-any.whl (37 kB)
+Downloading websocket_client-1.8.0-py3-none-any.whl (58 kB)
+Downloading y_py-0.6.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 11.0 MB/s eta 0:00:00
+Downloading ypy_websocket-0.8.4-py3-none-any.whl (10 kB)
+Downloading backcall-0.2.0-py2.py3-none-any.whl (11 kB)
+Downloading decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Downloading ipykernel-6.29.5-py3-none-any.whl (117 kB)
+Downloading matplotlib_inline-0.1.7-py3-none-any.whl (9.9 kB)
+Downloading ipython_genutils-0.2.0-py2.py3-none-any.whl (26 kB)
+Downloading pickleshare-0.7.5-py2.py3-none-any.whl (6.9 kB)
+Downloading stack_data-0.6.3-py3-none-any.whl (24 kB)
+Downloading aiofiles-22.1.0-py3-none-any.whl (14 kB)
+Downloading aiosqlite-0.20.0-py3-none-any.whl (15 kB)
+Downloading asttokens-3.0.0-py3-none-any.whl (26 kB)
+Downloading attrs-24.2.0-py3-none-any.whl (63 kB)
+Downloading bleach-6.1.0-py3-none-any.whl (162 kB)
+Downloading certifi-2024.12.14-py3-none-any.whl (164 kB)
+Downloading charset_normalizer-3.4.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (143 kB)
+Downloading debugpy-1.8.11-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 12.0 MB/s eta 0:00:00
+Downloading exceptiongroup-1.2.2-py3-none-any.whl (16 kB)
+Downloading executing-2.1.0-py2.py3-none-any.whl (25 kB)
+Downloading fastjsonschema-2.21.1-py3-none-any.whl (23 kB)
+Downloading idna-3.10-py3-none-any.whl (70 kB)
+Downloading jsonschema_specifications-2023.12.1-py3-none-any.whl (18 kB)
+Downloading mistune-3.0.2-py3-none-any.whl (47 kB)
+Downloading nbclient-0.10.1-py3-none-any.whl (25 kB)
+Downloading pandocfilters-1.5.1-py2.py3-none-any.whl (8.7 kB)
+Downloading parso-0.8.4-py2.py3-none-any.whl (103 kB)
+Downloading pkgutil_resolve_name-1.3.10-py3-none-any.whl (4.7 kB)
+Downloading ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+Downloading python_json_logger-3.2.0-py3-none-any.whl (14 kB)
+Downloading referencing-0.35.1-py3-none-any.whl (26 kB)
+Downloading rfc3986_validator-0.1.1-py2.py3-none-any.whl (4.2 kB)
+Downloading rpds_py-0.20.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (360 kB)
+Downloading sniffio-1.3.1-py3-none-any.whl (10 kB)
+Downloading urllib3-2.2.3-py3-none-any.whl (126 kB)
+Downloading argon2_cffi_bindings-21.2.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (86 kB)
+Downloading beautifulsoup4-4.12.3-py3-none-any.whl (147 kB)
+Downloading defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Downloading entrypoints-0.4-py3-none-any.whl (5.3 kB)
+Downloading jupyterlab_pygments-0.3.0-py3-none-any.whl (15 kB)
+Downloading psutil-6.1.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (287 kB)
+Downloading pure_eval-0.2.3-py3-none-any.whl (11 kB)
+Downloading rfc3339_validator-0.1.4-py2.py3-none-any.whl (3.5 kB)
+Downloading tinycss2-1.4.0-py3-none-any.whl (26 kB)
+Downloading wcwidth-0.2.13-py2.py3-none-any.whl (34 kB)
+Downloading cffi-1.17.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (446 kB)
+Downloading jsonpointer-3.0.0-py2.py3-none-any.whl (7.6 kB)
+Downloading soupsieve-2.6-py3-none-any.whl (36 kB)
+Downloading webcolors-24.8.0-py3-none-any.whl (15 kB)
+Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Downloading fqdn-1.5.1-py3-none-any.whl (9.1 kB)
+Downloading isoduration-20.11.0-py3-none-any.whl (11 kB)
+Downloading uri_template-1.3.0-py3-none-any.whl (11 kB)
+Downloading arrow-1.3.0-py3-none-any.whl (66 kB)
+Downloading pycparser-2.22-py3-none-any.whl (117 kB)
+Downloading types_python_dateutil-2.9.0.20241206-py3-none-any.whl (14 kB)
+Installing collected packages: y-py, webencodings, wcwidth, pytz, pure-eval, ptyprocess, pickleshare, ipython-genutils, fastjsonschema, backcall, addict, zipp, widgetsnbextension, websocket-client, webcolors, urllib3, uri-template, tzdata, typing-extensions, types-python-dateutil, traitlets, tqdm, tornado, tomlkit, tomli, tinycss2, threadpoolctl, soupsieve, sniffio, six, send2trash, rpds-py, rfc3986-validator, pyzmq, pyyaml, pyparsing, pygments, pycparser, psutil, prompt-toolkit, prometheus-client, platformdirs, pkgutil-resolve-name, pillow, pexpect, parso, pandocfilters, packaging, overrides, numpy, nest-asyncio, mistune, MarkupSafe, kiwisolver, jupyterlab-widgets, jupyterlab-pygments, jsonpointer, json5, joblib, idna, fqdn, fonttools, executing, exceptiongroup, entrypoints, defusedxml, decorator, debugpy, cycler, charset-normalizer, certifi, babel, attrs, asttokens, aiofiles, terminado, stack-data, scipy, rfc3339-validator, requests, referencing, python-json-logger, python-dateutil, pyquaternion, matplotlib-inline, jupyter-core, jinja2, jedi, importlib-resources, importlib-metadata, deprecation, contourpy, comm, cffi, bleach, beautifulsoup4, anyio, aiosqlite, ypy-websocket, scikit-learn, pandas, matplotlib, jupyter-ydoc, jupyter-server-terminals, jupyter-packaging, jupyter-client, jsonschema-specifications, ipython, arrow, argon2-cffi-bindings, jsonschema, isoduration, ipywidgets, ipykernel, argon2-cffi, nbformat, nbclient, jupyter-events, nbconvert, jupyter-server, notebook-shim, jupyterlab-server, jupyter-server-fileid, nbclassic, jupyter-server-ydoc, notebook, jupyterlab, open3d
+Successfully installed MarkupSafe-2.1.5 addict-2.4.0 aiofiles-22.1.0 aiosqlite-0.20.0 anyio-4.5.2 argon2-cffi-23.1.0 argon2-cffi-bindings-21.2.0 arrow-1.3.0 asttokens-3.0.0 attrs-24.2.0 babel-2.16.0 backcall-0.2.0 beautifulsoup4-4.12.3 bleach-6.1.0 certifi-2024.12.14 cffi-1.17.1 charset-normalizer-3.4.0 comm-0.2.2 contourpy-1.1.1 cycler-0.12.1 debugpy-1.8.11 decorator-5.1.1 defusedxml-0.7.1 deprecation-2.1.0 entrypoints-0.4 exceptiongroup-1.2.2 executing-2.1.0 fastjsonschema-2.21.1 fonttools-4.55.3 fqdn-1.5.1 idna-3.10 importlib-metadata-8.5.0 importlib-resources-6.4.5 ipykernel-6.29.5 ipython-8.12.3 ipython-genutils-0.2.0 ipywidgets-8.1.5 isoduration-20.11.0 jedi-0.19.2 jinja2-3.1.4 joblib-1.4.2 json5-0.10.0 jsonpointer-3.0.0 jsonschema-4.23.0 jsonschema-specifications-2023.12.1 jupyter-client-7.4.9 jupyter-core-5.7.2 jupyter-events-0.10.0 jupyter-packaging-0.12.3 jupyter-server-2.14.2 jupyter-server-fileid-0.9.3 jupyter-server-terminals-0.5.3 jupyter-server-ydoc-0.8.0 jupyter-ydoc-0.2.5 jupyterlab-3.6.8 jupyterlab-pygments-0.3.0 jupyterlab-server-2.27.3 jupyterlab-widgets-3.0.13 kiwisolver-1.4.7 matplotlib-3.7.5 matplotlib-inline-0.1.7 mistune-3.0.2 nbclassic-1.1.0 nbclient-0.10.1 nbconvert-7.16.4 nbformat-5.10.4 nest-asyncio-1.6.0 notebook-6.5.7 notebook-shim-0.2.4 numpy-1.24.4 open3d-0.15.2 overrides-7.7.0 packaging-24.2 pandas-2.0.3 pandocfilters-1.5.1 parso-0.8.4 pexpect-4.9.0 pickleshare-0.7.5 pillow-10.4.0 pkgutil-resolve-name-1.3.10 platformdirs-4.3.6 prometheus-client-0.21.1 prompt-toolkit-3.0.48 psutil-6.1.0 ptyprocess-0.7.0 pure-eval-0.2.3 pycparser-2.22 pygments-2.18.0 pyparsing-3.1.4 pyquaternion-0.9.9 python-dateutil-2.9.0.post0 python-json-logger-3.2.0 pytz-2024.2 pyyaml-6.0.2 pyzmq-26.2.0 referencing-0.35.1 requests-2.32.3 rfc3339-validator-0.1.4 rfc3986-validator-0.1.1 rpds-py-0.20.1 scikit-learn-1.3.2 scipy-1.10.1 send2trash-1.8.3 six-1.17.0 sniffio-1.3.1 soupsieve-2.6 stack-data-0.6.3 terminado-0.18.1 threadpoolctl-3.5.0 tinycss2-1.4.0 tomli-2.2.1 tomlkit-0.13.2 tornado-6.4.2 tqdm-4.67.1 traitlets-5.14.3 types-python-dateutil-2.9.0.20241206 typing-extensions-4.12.2 tzdata-2024.2 uri-template-1.3.0 urllib3-2.2.3 wcwidth-0.2.13 webcolors-24.8.0 webencodings-0.5.1 websocket-client-1.8.0 widgetsnbextension-4.0.13 y-py-0.6.2 ypy-websocket-0.8.4 zipp-3.20.2
+Loaded transformations shape: (805, 4, 4)
+Number of pcd files found: 805
+Number of transformations: 805
+
+Processing transformation 1/805
+Chamfer Distance between transformed PCD 0 and PCD 1: 0.154883
+
+Processing transformation 2/805
+Chamfer Distance between transformed PCD 1 and PCD 2: 0.080290
+
+Processing transformation 3/805
+Chamfer Distance between transformed PCD 2 and PCD 3: 0.222000
+
+Processing transformation 4/805
+Chamfer Distance between transformed PCD 3 and PCD 4: 0.324418
+
+Processing transformation 5/805
+Chamfer Distance between transformed PCD 4 and PCD 5: 0.366607
+
+Processing transformation 6/805
+Chamfer Distance between transformed PCD 5 and PCD 6: 0.497402
+
+Processing transformation 7/805
+Chamfer Distance between transformed PCD 6 and PCD 7: 0.293014
+
+Processing transformation 8/805
+Chamfer Distance between transformed PCD 7 and PCD 8: 0.214811
+
+Processing transformation 9/805
+Chamfer Distance between transformed PCD 8 and PCD 9: 0.137335
+
+Processing transformation 10/805
+Chamfer Distance between transformed PCD 9 and PCD 10: 0.159535
+
+Processing transformation 11/805
+Chamfer Distance between transformed PCD 10 and PCD 11: 0.303994
+
+Processing transformation 12/805
+Chamfer Distance between transformed PCD 11 and PCD 12: 0.248200
+
+Processing transformation 13/805
+Chamfer Distance between transformed PCD 12 and PCD 13: 0.202221
+
+Processing transformation 14/805
+Chamfer Distance between transformed PCD 13 and PCD 14: 0.141827
+
+Processing transformation 15/805
+Chamfer Distance between transformed PCD 14 and PCD 15: 0.324637
+
+Processing transformation 16/805
+Chamfer Distance between transformed PCD 15 and PCD 16: 0.392112
+
+Processing transformation 17/805
+Chamfer Distance between transformed PCD 16 and PCD 17: 0.359758
+
+Processing transformation 18/805
+Chamfer Distance between transformed PCD 17 and PCD 18: 0.407032
+
+Processing transformation 19/805
+Chamfer Distance between transformed PCD 18 and PCD 19: 0.372055
+
+Processing transformation 20/805
+Chamfer Distance between transformed PCD 19 and PCD 20: 0.361467
+
+Processing transformation 21/805
+Chamfer Distance between transformed PCD 20 and PCD 21: 0.325038
+
+Processing transformation 22/805
+Chamfer Distance between transformed PCD 21 and PCD 22: 0.273683
+
+Processing transformation 23/805
+Chamfer Distance between transformed PCD 22 and PCD 23: 0.362691
+
+Processing transformation 24/805
+Chamfer Distance between transformed PCD 23 and PCD 24: 0.367430
+
+Processing transformation 25/805
+Chamfer Distance between transformed PCD 24 and PCD 25: 0.435991
+
+Processing transformation 26/805
+Chamfer Distance between transformed PCD 25 and PCD 26: 0.360533
+
+Processing transformation 27/805
+Chamfer Distance between transformed PCD 26 and PCD 27: 0.415144
+
+Processing transformation 28/805
+Chamfer Distance between transformed PCD 27 and PCD 28: 0.474976
+
+Processing transformation 29/805
+Chamfer Distance between transformed PCD 28 and PCD 29: 0.512087
+
+Processing transformation 30/805
+Chamfer Distance between transformed PCD 29 and PCD 30: 0.404224
+
+Processing transformation 31/805
+Chamfer Distance between transformed PCD 30 and PCD 31: 0.417288
+
+Processing transformation 32/805
+Chamfer Distance between transformed PCD 31 and PCD 32: 0.490928
+
+Processing transformation 33/805
+Chamfer Distance between transformed PCD 32 and PCD 33: 0.728406
+
+Processing transformation 34/805
+Chamfer Distance between transformed PCD 33 and PCD 34: 0.690618
+
+Processing transformation 35/805
+Chamfer Distance between transformed PCD 34 and PCD 35: 0.785595
+
+Processing transformation 36/805
+Chamfer Distance between transformed PCD 35 and PCD 36: 0.886640
+
+Processing transformation 37/805
+Chamfer Distance between transformed PCD 36 and PCD 37: 1.162826
+
+Processing transformation 38/805
+Chamfer Distance between transformed PCD 37 and PCD 38: 1.040895
+
+Processing transformation 39/805
+Chamfer Distance between transformed PCD 38 and PCD 39: 1.083404
+
+Processing transformation 40/805
+Chamfer Distance between transformed PCD 39 and PCD 40: 1.442096
+
+Processing transformation 41/805
+Chamfer Distance between transformed PCD 40 and PCD 41: 1.448243
+
+Processing transformation 42/805
+Chamfer Distance between transformed PCD 41 and PCD 42: 1.652110
+
+Processing transformation 43/805
+Chamfer Distance between transformed PCD 42 and PCD 43: 1.785800
+
+Processing transformation 44/805
+Chamfer Distance between transformed PCD 43 and PCD 44: 2.090025
+
+Processing transformation 45/805
+Chamfer Distance between transformed PCD 44 and PCD 45: 2.160302
+
+Processing transformation 46/805
+Chamfer Distance between transformed PCD 45 and PCD 46: 2.243949
+
+Processing transformation 47/805
+Chamfer Distance between transformed PCD 46 and PCD 47: 2.518060
+
+Processing transformation 48/805
+Chamfer Distance between transformed PCD 47 and PCD 48: 2.630228
+
+Processing transformation 49/805
+Chamfer Distance between transformed PCD 48 and PCD 49: 2.926116
+
+Processing transformation 50/805
+Chamfer Distance between transformed PCD 49 and PCD 50: 3.049763
+
+Processing transformation 51/805
+Chamfer Distance between transformed PCD 50 and PCD 51: 3.380495
+
+Processing transformation 52/805
+Chamfer Distance between transformed PCD 51 and PCD 52: 3.641782
+
+Processing transformation 53/805
+Chamfer Distance between transformed PCD 52 and PCD 53: 3.776248
+
+Processing transformation 54/805
+Chamfer Distance between transformed PCD 53 and PCD 54: 4.058662
+
+Processing transformation 55/805
+Chamfer Distance between transformed PCD 54 and PCD 55: 4.442670
+
+Processing transformation 56/805
+Chamfer Distance between transformed PCD 55 and PCD 56: 4.780302
+
+Processing transformation 57/805
+Chamfer Distance between transformed PCD 56 and PCD 57: 5.418150
+
+Processing transformation 58/805
+Chamfer Distance between transformed PCD 57 and PCD 58: 5.882501
+
+Processing transformation 59/805
+Chamfer Distance between transformed PCD 58 and PCD 59: 6.523212
+
+Processing transformation 60/805
+Chamfer Distance between transformed PCD 59 and PCD 60: 6.960493
+
+Processing transformation 61/805
+Chamfer Distance between transformed PCD 60 and PCD 61: 7.344767
+
+Processing transformation 62/805
+Chamfer Distance between transformed PCD 61 and PCD 62: 7.807231
+
+Processing transformation 63/805
+Chamfer Distance between transformed PCD 62 and PCD 63: 8.230377
+
+Processing transformation 64/805
+Chamfer Distance between transformed PCD 63 and PCD 64: 8.486522
+
+Processing transformation 65/805
+Chamfer Distance between transformed PCD 64 and PCD 65: 9.140442
+
+Processing transformation 66/805
+Chamfer Distance between transformed PCD 65 and PCD 66: 9.953681
+
+Processing transformation 67/805
+Chamfer Distance between transformed PCD 66 and PCD 67: 10.730533
+
+Processing transformation 68/805
+Chamfer Distance between transformed PCD 67 and PCD 68: 11.739071
+
+Processing transformation 69/805
+Chamfer Distance between transformed PCD 68 and PCD 69: 12.457147
+
+Processing transformation 70/805
+Chamfer Distance between transformed PCD 69 and PCD 70: 12.946484
+
+Processing transformation 71/805
+Chamfer Distance between transformed PCD 70 and PCD 71: 13.552640
+
+Processing transformation 72/805
+Chamfer Distance between transformed PCD 71 and PCD 72: 14.334504
+
+Processing transformation 73/805
+Chamfer Distance between transformed PCD 72 and PCD 73: 14.940302
+
+Processing transformation 74/805
+Chamfer Distance between transformed PCD 73 and PCD 74: 16.189588
+
+Processing transformation 75/805
+Chamfer Distance between transformed PCD 74 and PCD 75: 16.646194
+
+Processing transformation 76/805
+Chamfer Distance between transformed PCD 75 and PCD 76: 16.698978
+
+Processing transformation 77/805
+Chamfer Distance between transformed PCD 76 and PCD 77: 17.834275
+
+Processing transformation 78/805
+Chamfer Distance between transformed PCD 77 and PCD 78: 17.382655
+
+Processing transformation 79/805
+Chamfer Distance between transformed PCD 78 and PCD 79: 16.797318
+
+Processing transformation 80/805
+Chamfer Distance between transformed PCD 79 and PCD 80: 16.119619
+
+Processing transformation 81/805
+Chamfer Distance between transformed PCD 80 and PCD 81: 16.825854
+
+Processing transformation 82/805
+Chamfer Distance between transformed PCD 81 and PCD 82: 17.923476
+
+Processing transformation 83/805
+Chamfer Distance between transformed PCD 82 and PCD 83: 18.531569
+
+Processing transformation 84/805
+Chamfer Distance between transformed PCD 83 and PCD 84: 20.423054
+
+Processing transformation 85/805
+Chamfer Distance between transformed PCD 84 and PCD 85: 20.530819
+
+Processing transformation 86/805
+Chamfer Distance between transformed PCD 85 and PCD 86: 21.793812
+
+Processing transformation 87/805
+Chamfer Distance between transformed PCD 86 and PCD 87: 23.191244
+
+Processing transformation 88/805
+Chamfer Distance between transformed PCD 87 and PCD 88: 23.595048
+
+Processing transformation 89/805
+Chamfer Distance between transformed PCD 88 and PCD 89: 22.424241
+
+Processing transformation 90/805
+Chamfer Distance between transformed PCD 89 and PCD 90: 21.573381
+
+Processing transformation 91/805
+Chamfer Distance between transformed PCD 90 and PCD 91: 20.229660
+
+Processing transformation 92/805
+Chamfer Distance between transformed PCD 91 and PCD 92: 19.995210
+
+Processing transformation 93/805
+Chamfer Distance between transformed PCD 92 and PCD 93: 20.154019
+
+Processing transformation 94/805
+Chamfer Distance between transformed PCD 93 and PCD 94: 20.059868
+
+Processing transformation 95/805
+Chamfer Distance between transformed PCD 94 and PCD 95: 19.281030
+
+Processing transformation 96/805
+Chamfer Distance between transformed PCD 95 and PCD 96: 19.109846
+
+Processing transformation 97/805
+Chamfer Distance between transformed PCD 96 and PCD 97: 19.786954
+
+Processing transformation 98/805
+Chamfer Distance between transformed PCD 97 and PCD 98: 19.444716
+
+Processing transformation 99/805
+Chamfer Distance between transformed PCD 98 and PCD 99: 18.243389
+
+Processing transformation 100/805
+Chamfer Distance between transformed PCD 99 and PCD 100: 16.631557
+
+Processing transformation 101/805
+Chamfer Distance between transformed PCD 100 and PCD 101: 17.322638
+
+Processing transformation 102/805
+Chamfer Distance between transformed PCD 101 and PCD 102: 18.264128
+
+Processing transformation 103/805
+Chamfer Distance between transformed PCD 102 and PCD 103: 19.137858
+
+Processing transformation 104/805
+Chamfer Distance between transformed PCD 103 and PCD 104: 20.984058
+
+Processing transformation 105/805
+Chamfer Distance between transformed PCD 104 and PCD 105: 20.397293
+
+Processing transformation 106/805
+Chamfer Distance between transformed PCD 105 and PCD 106: 21.717361
+
+Processing transformation 107/805
+Chamfer Distance between transformed PCD 106 and PCD 107: 22.629833
+
+Processing transformation 108/805
+Chamfer Distance between transformed PCD 107 and PCD 108: 22.710173
+
+Processing transformation 109/805
+Chamfer Distance between transformed PCD 108 and PCD 109: 25.223284
+
+Processing transformation 110/805
+Chamfer Distance between transformed PCD 109 and PCD 110: 24.337765
+
+Processing transformation 111/805
+Chamfer Distance between transformed PCD 110 and PCD 111: 25.314829
+
+Processing transformation 112/805
+Chamfer Distance between transformed PCD 111 and PCD 112: 25.935868
+
+Processing transformation 113/805
+Chamfer Distance between transformed PCD 112 and PCD 113: 26.084670
+
+Processing transformation 114/805
+Chamfer Distance between transformed PCD 113 and PCD 114: 27.296770
+
+Processing transformation 115/805
+Chamfer Distance between transformed PCD 114 and PCD 115: 29.776632
+
+Processing transformation 116/805
+Chamfer Distance between transformed PCD 115 and PCD 116: 27.990140
+
+Processing transformation 117/805
+Chamfer Distance between transformed PCD 116 and PCD 117: 28.433363
+
+Processing transformation 118/805
+Chamfer Distance between transformed PCD 117 and PCD 118: 27.021597
+
+Processing transformation 119/805
+Chamfer Distance between transformed PCD 118 and PCD 119: 27.603229
+
+Processing transformation 120/805
+Chamfer Distance between transformed PCD 119 and PCD 120: 28.411724
+
+Processing transformation 121/805
+Chamfer Distance between transformed PCD 120 and PCD 121: 31.278682
+
+Processing transformation 122/805
+Chamfer Distance between transformed PCD 121 and PCD 122: 30.290612
+
+Processing transformation 123/805
+Chamfer Distance between transformed PCD 122 and PCD 123: 30.147033
+
+Processing transformation 124/805
+Chamfer Distance between transformed PCD 123 and PCD 124: 35.770514
+
+Processing transformation 125/805
+Chamfer Distance between transformed PCD 124 and PCD 125: 39.358091
+
+Processing transformation 126/805
+Chamfer Distance between transformed PCD 125 and PCD 126: 36.190590
+
+Processing transformation 127/805
+Chamfer Distance between transformed PCD 126 and PCD 127: 41.915932
+
+Processing transformation 128/805
+Chamfer Distance between transformed PCD 127 and PCD 128: 40.693601
+
+Processing transformation 129/805
+Chamfer Distance between transformed PCD 128 and PCD 129: 39.206746
+
+Processing transformation 130/805
+Chamfer Distance between transformed PCD 129 and PCD 130: 41.512824
+
+Processing transformation 131/805
+Chamfer Distance between transformed PCD 130 and PCD 131: 40.993995
+
+Processing transformation 132/805
+Chamfer Distance between transformed PCD 131 and PCD 132: 42.819083
+
+Processing transformation 133/805
+Chamfer Distance between transformed PCD 132 and PCD 133: 42.323687
+
+Processing transformation 134/805
+Chamfer Distance between transformed PCD 133 and PCD 134: 43.064390
+
+Processing transformation 135/805
+Chamfer Distance between transformed PCD 134 and PCD 135: 42.987728
+
+Processing transformation 136/805
+Chamfer Distance between transformed PCD 135 and PCD 136: 42.430919
+
+Processing transformation 137/805
+Chamfer Distance between transformed PCD 136 and PCD 137: 44.204048
+
+Processing transformation 138/805
+Chamfer Distance between transformed PCD 137 and PCD 138: 46.606854
+
+Processing transformation 139/805
+Chamfer Distance between transformed PCD 138 and PCD 139: 49.641202
+
+Processing transformation 140/805
+Chamfer Distance between transformed PCD 139 and PCD 140: 50.776086
+
+Processing transformation 141/805
+Chamfer Distance between transformed PCD 140 and PCD 141: 51.857762
+
+Processing transformation 142/805
+Chamfer Distance between transformed PCD 141 and PCD 142: 54.994944
+
+Processing transformation 143/805
+Chamfer Distance between transformed PCD 142 and PCD 143: 53.132297
+
+Processing transformation 144/805
+Chamfer Distance between transformed PCD 143 and PCD 144: 55.894709
+
+Processing transformation 145/805
+Chamfer Distance between transformed PCD 144 and PCD 145: 55.090105
+
+Processing transformation 146/805
+Chamfer Distance between transformed PCD 145 and PCD 146: 55.045770
+
+Processing transformation 147/805
+Chamfer Distance between transformed PCD 146 and PCD 147: 57.599413
+
+Processing transformation 148/805
+Chamfer Distance between transformed PCD 147 and PCD 148: 63.500696
+
+Processing transformation 149/805
+Chamfer Distance between transformed PCD 148 and PCD 149: 68.875457
+
+Processing transformation 150/805
+Chamfer Distance between transformed PCD 149 and PCD 150: 69.055838
+
+Processing transformation 151/805
+Chamfer Distance between transformed PCD 150 and PCD 151: 66.678572
+
+Processing transformation 152/805
+Chamfer Distance between transformed PCD 151 and PCD 152: 65.977353
+
+Processing transformation 153/805
+Chamfer Distance between transformed PCD 152 and PCD 153: 66.567000
+
+Processing transformation 154/805
+Chamfer Distance between transformed PCD 153 and PCD 154: 68.263171
+
+Processing transformation 155/805
+Chamfer Distance between transformed PCD 154 and PCD 155: 69.835119
+
+Processing transformation 156/805
+Chamfer Distance between transformed PCD 155 and PCD 156: 68.794270
+
+Processing transformation 157/805
+Chamfer Distance between transformed PCD 156 and PCD 157: 68.458701
+
+Processing transformation 158/805
+Chamfer Distance between transformed PCD 157 and PCD 158: 73.143406
+
+Processing transformation 159/805
+Chamfer Distance between transformed PCD 158 and PCD 159: 83.592194
+
+Processing transformation 160/805
+Chamfer Distance between transformed PCD 159 and PCD 160: 84.757980
+
+Processing transformation 161/805
+Chamfer Distance between transformed PCD 160 and PCD 161: 77.508152
+
+Processing transformation 162/805
+Chamfer Distance between transformed PCD 161 and PCD 162: 79.113495
+
+Processing transformation 163/805
+Chamfer Distance between transformed PCD 162 and PCD 163: 83.194357
+
+Processing transformation 164/805
+Chamfer Distance between transformed PCD 163 and PCD 164: 82.755444
+
+Processing transformation 165/805
+Chamfer Distance between transformed PCD 164 and PCD 165: 81.201360
+
+Processing transformation 166/805
+Chamfer Distance between transformed PCD 165 and PCD 166: 80.793866
+
+Processing transformation 167/805
+Chamfer Distance between transformed PCD 166 and PCD 167: 74.556716
+
+Processing transformation 168/805
+Chamfer Distance between transformed PCD 167 and PCD 168: 81.662759
+
+Processing transformation 169/805
+Chamfer Distance between transformed PCD 168 and PCD 169: 85.346699
+
+Processing transformation 170/805
+Chamfer Distance between transformed PCD 169 and PCD 170: 90.885299
+
+Processing transformation 171/805
+Chamfer Distance between transformed PCD 170 and PCD 171: 87.547362
+
+Processing transformation 172/805
+Chamfer Distance between transformed PCD 171 and PCD 172: 84.856076
+
+Processing transformation 173/805
+Chamfer Distance between transformed PCD 172 and PCD 173: 83.372892
+
+Processing transformation 174/805
+Chamfer Distance between transformed PCD 173 and PCD 174: 85.940200
+
+Processing transformation 175/805
+Chamfer Distance between transformed PCD 174 and PCD 175: 97.558222
+
+Processing transformation 176/805
+Chamfer Distance between transformed PCD 175 and PCD 176: 87.876451
+
+Processing transformation 177/805
+Chamfer Distance between transformed PCD 176 and PCD 177: 99.116710
+
+Processing transformation 178/805
+Chamfer Distance between transformed PCD 177 and PCD 178: 97.760095
+
+Processing transformation 179/805
+Chamfer Distance between transformed PCD 178 and PCD 179: 100.956690
+
+Processing transformation 180/805
+Chamfer Distance between transformed PCD 179 and PCD 180: 105.013138
+
+Processing transformation 181/805
+Chamfer Distance between transformed PCD 180 and PCD 181: 114.031566
+
+Processing transformation 182/805
+Chamfer Distance between transformed PCD 181 and PCD 182: 103.166603
+
+Processing transformation 183/805
+Chamfer Distance between transformed PCD 182 and PCD 183: 105.485365
+
+Processing transformation 184/805
+Chamfer Distance between transformed PCD 183 and PCD 184: 103.955918
+
+Processing transformation 185/805
+Chamfer Distance between transformed PCD 184 and PCD 185: 108.518874
+
+Processing transformation 186/805
+Chamfer Distance between transformed PCD 185 and PCD 186: 107.021663
+
+Processing transformation 187/805
+Chamfer Distance between transformed PCD 186 and PCD 187: 82.558992
+
+Processing transformation 188/805
+Chamfer Distance between transformed PCD 187 and PCD 188: 62.692608
+
+Processing transformation 189/805
+Chamfer Distance between transformed PCD 188 and PCD 189: 68.844573
+
+Processing transformation 190/805
+Chamfer Distance between transformed PCD 189 and PCD 190: 65.682031
+
+Processing transformation 191/805
+Chamfer Distance between transformed PCD 190 and PCD 191: 67.090066
+
+Processing transformation 192/805
+Chamfer Distance between transformed PCD 191 and PCD 192: 66.103765
+
+Processing transformation 193/805
+Chamfer Distance between transformed PCD 192 and PCD 193: 58.986771
+
+Processing transformation 194/805
+Chamfer Distance between transformed PCD 193 and PCD 194: 65.454023
+
+Processing transformation 195/805
+Chamfer Distance between transformed PCD 194 and PCD 195: 59.598825
+
+Processing transformation 196/805
+Chamfer Distance between transformed PCD 195 and PCD 196: 63.612231
+
+Processing transformation 197/805
+Chamfer Distance between transformed PCD 196 and PCD 197: 63.747521
+
+Processing transformation 198/805
+Chamfer Distance between transformed PCD 197 and PCD 198: 77.506994
+
+Processing transformation 199/805
+Chamfer Distance between transformed PCD 198 and PCD 199: 76.715374
+
+Processing transformation 200/805
+Chamfer Distance between transformed PCD 199 and PCD 200: 61.266766
+
+Processing transformation 201/805
+Chamfer Distance between transformed PCD 200 and PCD 201: 64.112626
+
+Processing transformation 202/805
+Chamfer Distance between transformed PCD 201 and PCD 202: 78.632255
+
+Processing transformation 203/805
+Chamfer Distance between transformed PCD 202 and PCD 203: 74.878733
+
+Processing transformation 204/805
+Chamfer Distance between transformed PCD 203 and PCD 204: 75.205964
+
+Processing transformation 205/805
+Chamfer Distance between transformed PCD 204 and PCD 205: 59.640676
+
+Processing transformation 206/805
+Chamfer Distance between transformed PCD 205 and PCD 206: 70.441907
+
+Processing transformation 207/805
+Chamfer Distance between transformed PCD 206 and PCD 207: 61.679085
+
+Processing transformation 208/805
+Chamfer Distance between transformed PCD 207 and PCD 208: 56.817496
+
+Processing transformation 209/805
+Chamfer Distance between transformed PCD 208 and PCD 209: 58.372921
+
+Processing transformation 210/805
+Chamfer Distance between transformed PCD 209 and PCD 210: 57.368186
+
+Processing transformation 211/805
+Chamfer Distance between transformed PCD 210 and PCD 211: 57.477301
+
+Processing transformation 212/805
+Chamfer Distance between transformed PCD 211 and PCD 212: 61.737715
+
+Processing transformation 213/805
+Chamfer Distance between transformed PCD 212 and PCD 213: 54.195146
+
+Processing transformation 214/805
+Chamfer Distance between transformed PCD 213 and PCD 214: 61.111041
+
+Processing transformation 215/805
+Chamfer Distance between transformed PCD 214 and PCD 215: 52.836992
+
+Processing transformation 216/805
+Chamfer Distance between transformed PCD 215 and PCD 216: 57.423014
+
+Processing transformation 217/805
+Chamfer Distance between transformed PCD 216 and PCD 217: 62.811083
+
+Processing transformation 218/805
+Chamfer Distance between transformed PCD 217 and PCD 218: 65.525077
+
+Processing transformation 219/805
+Chamfer Distance between transformed PCD 218 and PCD 219: 67.850034
+
+Processing transformation 220/805
+Chamfer Distance between transformed PCD 219 and PCD 220: 66.683954
+
+Processing transformation 221/805
+Chamfer Distance between transformed PCD 220 and PCD 221: 73.954341
+
+Processing transformation 222/805
+Chamfer Distance between transformed PCD 221 and PCD 222: 66.805578
+
+Processing transformation 223/805
+Chamfer Distance between transformed PCD 222 and PCD 223: 70.199853
+
+Processing transformation 224/805
+Chamfer Distance between transformed PCD 223 and PCD 224: 67.180718
+
+Processing transformation 225/805
+Chamfer Distance between transformed PCD 224 and PCD 225: 70.649487
+
+Processing transformation 226/805
+Chamfer Distance between transformed PCD 225 and PCD 226: 70.061295
+
+Processing transformation 227/805
+Chamfer Distance between transformed PCD 226 and PCD 227: 67.163847
+
+Processing transformation 228/805
+Chamfer Distance between transformed PCD 227 and PCD 228: 65.111683
+
+Processing transformation 229/805
+Chamfer Distance between transformed PCD 228 and PCD 229: 59.917635
+
+Processing transformation 230/805
+Chamfer Distance between transformed PCD 229 and PCD 230: 59.907775
+
+Processing transformation 231/805
+Chamfer Distance between transformed PCD 230 and PCD 231: 55.517793
+
+Processing transformation 232/805
+Chamfer Distance between transformed PCD 231 and PCD 232: 59.266900
+
+Processing transformation 233/805
+Chamfer Distance between transformed PCD 232 and PCD 233: 59.819762
+
+Processing transformation 234/805
+Chamfer Distance between transformed PCD 233 and PCD 234: 61.454920
+
+Processing transformation 235/805
+Chamfer Distance between transformed PCD 234 and PCD 235: 68.444356
+
+Processing transformation 236/805
+Chamfer Distance between transformed PCD 235 and PCD 236: 69.213968
+
+Processing transformation 237/805
+Chamfer Distance between transformed PCD 236 and PCD 237: 59.545274
+
+Processing transformation 238/805
+Chamfer Distance between transformed PCD 237 and PCD 238: 60.868198
+
+Processing transformation 239/805
+Chamfer Distance between transformed PCD 238 and PCD 239: 65.295989
+
+Processing transformation 240/805
+Chamfer Distance between transformed PCD 239 and PCD 240: 61.265376
+
+Processing transformation 241/805
+Chamfer Distance between transformed PCD 240 and PCD 241: 64.464076
+
+Processing transformation 242/805
+Chamfer Distance between transformed PCD 241 and PCD 242: 70.892420
+
+Processing transformation 243/805
+Chamfer Distance between transformed PCD 242 and PCD 243: 70.211006
+
+Processing transformation 244/805
+Chamfer Distance between transformed PCD 243 and PCD 244: 74.394728
+
+Processing transformation 245/805
+Chamfer Distance between transformed PCD 244 and PCD 245: 68.388298
+
+Processing transformation 246/805
+Chamfer Distance between transformed PCD 245 and PCD 246: 71.216097
+
+Processing transformation 247/805
+Chamfer Distance between transformed PCD 246 and PCD 247: 75.018525
+
+Processing transformation 248/805
+Chamfer Distance between transformed PCD 247 and PCD 248: 73.833644
+
+Processing transformation 249/805
+Chamfer Distance between transformed PCD 248 and PCD 249: 70.285931
+
+Processing transformation 250/805
+Chamfer Distance between transformed PCD 249 and PCD 250: 67.795576
+
+Processing transformation 251/805
+Chamfer Distance between transformed PCD 250 and PCD 251: 68.609090
+
+Processing transformation 252/805
+Chamfer Distance between transformed PCD 251 and PCD 252: 69.822582
+
+Processing transformation 253/805
+Chamfer Distance between transformed PCD 252 and PCD 253: 75.639215
+
+Processing transformation 254/805
+Chamfer Distance between transformed PCD 253 and PCD 254: 76.020331
+
+Processing transformation 255/805
+Chamfer Distance between transformed PCD 254 and PCD 255: 77.965269
+
+Processing transformation 256/805
+Chamfer Distance between transformed PCD 255 and PCD 256: 70.417587
+
+Processing transformation 257/805
+Chamfer Distance between transformed PCD 256 and PCD 257: 73.635638
+
+Processing transformation 258/805
+Chamfer Distance between transformed PCD 257 and PCD 258: 77.503192
+
+Processing transformation 259/805
+Chamfer Distance between transformed PCD 258 and PCD 259: 77.588880
+
+Processing transformation 260/805
+Chamfer Distance between transformed PCD 259 and PCD 260: 74.902605
+
+Processing transformation 261/805
+Chamfer Distance between transformed PCD 260 and PCD 261: 74.049647
+
+Processing transformation 262/805
+Chamfer Distance between transformed PCD 261 and PCD 262: 79.997457
+
+Processing transformation 263/805
+Chamfer Distance between transformed PCD 262 and PCD 263: 86.869070
+
+Processing transformation 264/805
+Chamfer Distance between transformed PCD 263 and PCD 264: 87.599884
+
+Processing transformation 265/805
+Chamfer Distance between transformed PCD 264 and PCD 265: 88.366110
+
+Processing transformation 266/805
+Chamfer Distance between transformed PCD 265 and PCD 266: 87.472652
+
+Processing transformation 267/805
+Chamfer Distance between transformed PCD 266 and PCD 267: 87.788777
+
+Processing transformation 268/805
+Chamfer Distance between transformed PCD 267 and PCD 268: 90.764261
+
+Processing transformation 269/805
+Chamfer Distance between transformed PCD 268 and PCD 269: 85.924256
+
+Processing transformation 270/805
+Chamfer Distance between transformed PCD 269 and PCD 270: 94.701998
+
+Processing transformation 271/805
+Chamfer Distance between transformed PCD 270 and PCD 271: 87.982938
+
+Processing transformation 272/805
+Chamfer Distance between transformed PCD 271 and PCD 272: 103.825004
+
+Processing transformation 273/805
+Chamfer Distance between transformed PCD 272 and PCD 273: 106.651596
+
+Processing transformation 274/805
+Chamfer Distance between transformed PCD 273 and PCD 274: 110.031350
+
+Processing transformation 275/805
+Chamfer Distance between transformed PCD 274 and PCD 275: 105.434391
+
+Processing transformation 276/805
+Chamfer Distance between transformed PCD 275 and PCD 276: 102.146952
+
+Processing transformation 277/805
+Chamfer Distance between transformed PCD 276 and PCD 277: 99.415648
+
+Processing transformation 278/805
+Chamfer Distance between transformed PCD 277 and PCD 278: 110.769158
+
+Processing transformation 279/805
+Chamfer Distance between transformed PCD 278 and PCD 279: 107.150109
+
+Processing transformation 280/805
+Chamfer Distance between transformed PCD 279 and PCD 280: 112.506050
+
+Processing transformation 281/805
+Chamfer Distance between transformed PCD 280 and PCD 281: 113.259892
+
+Processing transformation 282/805
+Chamfer Distance between transformed PCD 281 and PCD 282: 124.144293
+
+Processing transformation 283/805
+Chamfer Distance between transformed PCD 282 and PCD 283: 144.227009
+
+Processing transformation 284/805
+Chamfer Distance between transformed PCD 283 and PCD 284: 113.253843
+
+Processing transformation 285/805
+Chamfer Distance between transformed PCD 284 and PCD 285: 115.955826
+
+Processing transformation 286/805
+Chamfer Distance between transformed PCD 285 and PCD 286: 114.766961
+
+Processing transformation 287/805
+Chamfer Distance between transformed PCD 286 and PCD 287: 129.057583
+
+Processing transformation 288/805
+Chamfer Distance between transformed PCD 287 and PCD 288: 132.584357
+
+Processing transformation 289/805
+Chamfer Distance between transformed PCD 288 and PCD 289: 132.939947
+
+Processing transformation 290/805
+Chamfer Distance between transformed PCD 289 and PCD 290: 136.483059
+
+Processing transformation 291/805
+Chamfer Distance between transformed PCD 290 and PCD 291: 123.506142
+
+Processing transformation 292/805
+Chamfer Distance between transformed PCD 291 and PCD 292: 141.547095
+
+Processing transformation 293/805
+Chamfer Distance between transformed PCD 292 and PCD 293: 204.803171
+
+Processing transformation 294/805
+Chamfer Distance between transformed PCD 293 and PCD 294: 147.499812
+
+Processing transformation 295/805
+Chamfer Distance between transformed PCD 294 and PCD 295: 163.454158
+
+Processing transformation 296/805
+Chamfer Distance between transformed PCD 295 and PCD 296: 92.729776
+
+Processing transformation 297/805
+Chamfer Distance between transformed PCD 296 and PCD 297: 124.297212
+
+Processing transformation 298/805
+Chamfer Distance between transformed PCD 297 and PCD 298: 146.661699
+
+Processing transformation 299/805
+Chamfer Distance between transformed PCD 298 and PCD 299: 119.559388
+
+Processing transformation 300/805
+Chamfer Distance between transformed PCD 299 and PCD 300: 113.533751
+
+Processing transformation 301/805
+Chamfer Distance between transformed PCD 300 and PCD 301: 113.237339
+
+Processing transformation 302/805
+Chamfer Distance between transformed PCD 301 and PCD 302: 131.234544
+
+Processing transformation 303/805
+Chamfer Distance between transformed PCD 302 and PCD 303: 116.803781
+
+Processing transformation 304/805
+Chamfer Distance between transformed PCD 303 and PCD 304: 113.458470
+
+Processing transformation 305/805
+Chamfer Distance between transformed PCD 304 and PCD 305: 102.634895
+
+Processing transformation 306/805
+Chamfer Distance between transformed PCD 305 and PCD 306: 115.999705
+
+Processing transformation 307/805
+Chamfer Distance between transformed PCD 306 and PCD 307: 104.675662
+
+Processing transformation 308/805
+Chamfer Distance between transformed PCD 307 and PCD 308: 93.801131
+
+Processing transformation 309/805
+Chamfer Distance between transformed PCD 308 and PCD 309: 100.534016
+
+Processing transformation 310/805
+Chamfer Distance between transformed PCD 309 and PCD 310: 142.433661
+
+Processing transformation 311/805
+Chamfer Distance between transformed PCD 310 and PCD 311: 144.535146
+
+Processing transformation 312/805
+Chamfer Distance between transformed PCD 311 and PCD 312: 94.662400
+
+Processing transformation 313/805
+Chamfer Distance between transformed PCD 312 and PCD 313: 106.570145
+
+Processing transformation 314/805
+Chamfer Distance between transformed PCD 313 and PCD 314: 97.488439
+
+Processing transformation 315/805
+Chamfer Distance between transformed PCD 314 and PCD 315: 104.610164
+
+Processing transformation 316/805
+Chamfer Distance between transformed PCD 315 and PCD 316: 106.400468
+
+Processing transformation 317/805
+Chamfer Distance between transformed PCD 316 and PCD 317: 104.560484
+
+Processing transformation 318/805
+Chamfer Distance between transformed PCD 317 and PCD 318: 112.871201
+
+Processing transformation 319/805
+Chamfer Distance between transformed PCD 318 and PCD 319: 98.899660
+
+Processing transformation 320/805
+Chamfer Distance between transformed PCD 319 and PCD 320: 153.831653
+
+Processing transformation 321/805
+Chamfer Distance between transformed PCD 320 and PCD 321: 142.781089
+
+Processing transformation 322/805
+Chamfer Distance between transformed PCD 321 and PCD 322: 153.520192
+
+Processing transformation 323/805
+Chamfer Distance between transformed PCD 322 and PCD 323: 124.485630
+
+Processing transformation 324/805
+Chamfer Distance between transformed PCD 323 and PCD 324: 118.950694
+
+Processing transformation 325/805
+Chamfer Distance between transformed PCD 324 and PCD 325: 119.689811
+
+Processing transformation 326/805
+Chamfer Distance between transformed PCD 325 and PCD 326: 157.305359
+
+Processing transformation 327/805
+Chamfer Distance between transformed PCD 326 and PCD 327: 145.005619
+
+Processing transformation 328/805
+Chamfer Distance between transformed PCD 327 and PCD 328: 154.848404
+
+Processing transformation 329/805
+Chamfer Distance between transformed PCD 328 and PCD 329: 184.389522
+
+Processing transformation 330/805
+Chamfer Distance between transformed PCD 329 and PCD 330: 188.764915
+
+Processing transformation 331/805
+Chamfer Distance between transformed PCD 330 and PCD 331: 138.133146
+
+Processing transformation 332/805
+Chamfer Distance between transformed PCD 331 and PCD 332: 168.096242
+
+Processing transformation 333/805
+Chamfer Distance between transformed PCD 332 and PCD 333: 203.725054
+
+Processing transformation 334/805
+Chamfer Distance between transformed PCD 333 and PCD 334: 216.772775
+
+Processing transformation 335/805
+Chamfer Distance between transformed PCD 334 and PCD 335: 163.894266
+
+Processing transformation 336/805
+Chamfer Distance between transformed PCD 335 and PCD 336: 204.901373
+
+Processing transformation 337/805
+Chamfer Distance between transformed PCD 336 and PCD 337: 224.708031
+
+Processing transformation 338/805
+Chamfer Distance between transformed PCD 337 and PCD 338: 222.269348
+
+Processing transformation 339/805
+Chamfer Distance between transformed PCD 338 and PCD 339: 240.710062
+
+Processing transformation 340/805
+Chamfer Distance between transformed PCD 339 and PCD 340: 170.260147
+
+Processing transformation 341/805
+Chamfer Distance between transformed PCD 340 and PCD 341: 196.467466
+
+Processing transformation 342/805
+Chamfer Distance between transformed PCD 341 and PCD 342: 171.314269
+
+Processing transformation 343/805
+Chamfer Distance between transformed PCD 342 and PCD 343: 231.792953
+
+Processing transformation 344/805
+Chamfer Distance between transformed PCD 343 and PCD 344: 239.915253
+
+Processing transformation 345/805
+Chamfer Distance between transformed PCD 344 and PCD 345: 284.698031
+
+Processing transformation 346/805
+Chamfer Distance between transformed PCD 345 and PCD 346: 283.170323
+
+Processing transformation 347/805
+Chamfer Distance between transformed PCD 346 and PCD 347: 283.545287
+
+Processing transformation 348/805
+Chamfer Distance between transformed PCD 347 and PCD 348: 293.026989
+
+Processing transformation 349/805
+Chamfer Distance between transformed PCD 348 and PCD 349: 250.022343
+
+Processing transformation 350/805
+Chamfer Distance between transformed PCD 349 and PCD 350: 198.699416
+
+Processing transformation 351/805
+Chamfer Distance between transformed PCD 350 and PCD 351: 316.872352
+
+Processing transformation 352/805
+Chamfer Distance between transformed PCD 351 and PCD 352: 325.664894
+
+Processing transformation 353/805
+Chamfer Distance between transformed PCD 352 and PCD 353: 243.989574
+
+Processing transformation 354/805
+Chamfer Distance between transformed PCD 353 and PCD 354: 332.199992
+
+Processing transformation 355/805
+Chamfer Distance between transformed PCD 354 and PCD 355: 276.659241
+
+Processing transformation 356/805
+Chamfer Distance between transformed PCD 355 and PCD 356: 337.477075
+
+Processing transformation 357/805
+Chamfer Distance between transformed PCD 356 and PCD 357: 340.617998
+
+Processing transformation 358/805
+Chamfer Distance between transformed PCD 357 and PCD 358: 345.660649
+
+Processing transformation 359/805
+Chamfer Distance between transformed PCD 358 and PCD 359: 355.389347
+
+Processing transformation 360/805
+Chamfer Distance between transformed PCD 359 and PCD 360: 247.378877
+
+Processing transformation 361/805
+Chamfer Distance between transformed PCD 360 and PCD 361: 250.933415
+
+Processing transformation 362/805
+Chamfer Distance between transformed PCD 361 and PCD 362: 378.130922
+
+Processing transformation 363/805
+Chamfer Distance between transformed PCD 362 and PCD 363: 370.607452
+
+Processing transformation 364/805
+Chamfer Distance between transformed PCD 363 and PCD 364: 377.606745
+
+Processing transformation 365/805
+Chamfer Distance between transformed PCD 364 and PCD 365: 398.228716
+
+Processing transformation 366/805
+Chamfer Distance between transformed PCD 365 and PCD 366: 411.327880
+
+Processing transformation 367/805
+Chamfer Distance between transformed PCD 366 and PCD 367: 425.772552
+
+Processing transformation 368/805
+Chamfer Distance between transformed PCD 367 and PCD 368: 271.064400
+
+Processing transformation 369/805
+Chamfer Distance between transformed PCD 368 and PCD 369: 285.413209
+
+Processing transformation 370/805
+Chamfer Distance between transformed PCD 369 and PCD 370: 291.316956
+
+Processing transformation 371/805
+Chamfer Distance between transformed PCD 370 and PCD 371: 478.559144
+
+Processing transformation 372/805
+Chamfer Distance between transformed PCD 371 and PCD 372: 479.282530
+
+Processing transformation 373/805
+Chamfer Distance between transformed PCD 372 and PCD 373: 324.383342
+
+Processing transformation 374/805
+Chamfer Distance between transformed PCD 373 and PCD 374: 508.971499
+
+Processing transformation 375/805
+Chamfer Distance between transformed PCD 374 and PCD 375: 523.927126
+
+Processing transformation 376/805
+Chamfer Distance between transformed PCD 375 and PCD 376: 546.319579
+
+Processing transformation 377/805
+Chamfer Distance between transformed PCD 376 and PCD 377: 581.190284
+
+Processing transformation 378/805
+Chamfer Distance between transformed PCD 377 and PCD 378: 611.550509
+
+Processing transformation 379/805
+Chamfer Distance between transformed PCD 378 and PCD 379: 572.795295
+
+Processing transformation 380/805
+Chamfer Distance between transformed PCD 379 and PCD 380: 588.491301
+
+Processing transformation 381/805
+Chamfer Distance between transformed PCD 380 and PCD 381: 632.972075
+
+Processing transformation 382/805
+Chamfer Distance between transformed PCD 381 and PCD 382: 589.543082
+
+Processing transformation 383/805
+Chamfer Distance between transformed PCD 382 and PCD 383: 695.572577
+
+Processing transformation 384/805
+Chamfer Distance between transformed PCD 383 and PCD 384: 668.830920
+
+Processing transformation 385/805
+Chamfer Distance between transformed PCD 384 and PCD 385: 673.829649
+
+Processing transformation 386/805
+Chamfer Distance between transformed PCD 385 and PCD 386: 711.909061
+
+Processing transformation 387/805
+Chamfer Distance between transformed PCD 386 and PCD 387: 686.341212
+
+Processing transformation 388/805
+Chamfer Distance between transformed PCD 387 and PCD 388: 678.362786
+
+Processing transformation 389/805
+Chamfer Distance between transformed PCD 388 and PCD 389: 689.361826
+
+Processing transformation 390/805
+Chamfer Distance between transformed PCD 389 and PCD 390: 690.055618
+
+Processing transformation 391/805
+Chamfer Distance between transformed PCD 390 and PCD 391: 718.799212
+
+Processing transformation 392/805
+Chamfer Distance between transformed PCD 391 and PCD 392: 747.670890
+
+Processing transformation 393/805
+Chamfer Distance between transformed PCD 392 and PCD 393: 778.349476
+
+Processing transformation 394/805
+Chamfer Distance between transformed PCD 393 and PCD 394: 805.843636
+
+Processing transformation 395/805
+Chamfer Distance between transformed PCD 394 and PCD 395: 785.582237
+
+Processing transformation 396/805
+Chamfer Distance between transformed PCD 395 and PCD 396: 789.739881
+
+Processing transformation 397/805
+Chamfer Distance between transformed PCD 396 and PCD 397: 719.995343
+
+Processing transformation 398/805
+Chamfer Distance between transformed PCD 397 and PCD 398: 739.921546
+
+Processing transformation 399/805
+Chamfer Distance between transformed PCD 398 and PCD 399: 831.315176
+
+Processing transformation 400/805
+Chamfer Distance between transformed PCD 399 and PCD 400: 723.776809
+
+Processing transformation 401/805
+Chamfer Distance between transformed PCD 400 and PCD 401: 742.495182
+
+Processing transformation 402/805
+Chamfer Distance between transformed PCD 401 and PCD 402: 682.678392
+
+Processing transformation 403/805
+Chamfer Distance between transformed PCD 402 and PCD 403: 671.639227
+
+Processing transformation 404/805
+Chamfer Distance between transformed PCD 403 and PCD 404: 634.169603
+
+Processing transformation 405/805
+Chamfer Distance between transformed PCD 404 and PCD 405: 656.626129
+
+Processing transformation 406/805
+Chamfer Distance between transformed PCD 405 and PCD 406: 655.139316
+
+Processing transformation 407/805
+Chamfer Distance between transformed PCD 406 and PCD 407: 602.892740
+
+Processing transformation 408/805
+Chamfer Distance between transformed PCD 407 and PCD 408: 634.284508
+
+Processing transformation 409/805
+Chamfer Distance between transformed PCD 408 and PCD 409: 634.088844
+
+Processing transformation 410/805
+Chamfer Distance between transformed PCD 409 and PCD 410: 571.132307
+
+Processing transformation 411/805
+Chamfer Distance between transformed PCD 410 and PCD 411: 559.447309
+
+Processing transformation 412/805
+Chamfer Distance between transformed PCD 411 and PCD 412: 541.337718
+
+Processing transformation 413/805
+Chamfer Distance between transformed PCD 412 and PCD 413: 564.482789
+
+Processing transformation 414/805
+Chamfer Distance between transformed PCD 413 and PCD 414: 510.802862
+
+Processing transformation 415/805
+Chamfer Distance between transformed PCD 414 and PCD 415: 505.065952
+
+Processing transformation 416/805
+Chamfer Distance between transformed PCD 415 and PCD 416: 492.202794
+
+Processing transformation 417/805
+Chamfer Distance between transformed PCD 416 and PCD 417: 482.643107
+
+Processing transformation 418/805
+Chamfer Distance between transformed PCD 417 and PCD 418: 478.098210
+
+Processing transformation 419/805
+Chamfer Distance between transformed PCD 418 and PCD 419: 470.724451
+
+Processing transformation 420/805
+Chamfer Distance between transformed PCD 419 and PCD 420: 461.256406
+
+Processing transformation 421/805
+Chamfer Distance between transformed PCD 420 and PCD 421: 527.229681
+
+Processing transformation 422/805
+Chamfer Distance between transformed PCD 421 and PCD 422: 437.511716
+
+Processing transformation 423/805
+Chamfer Distance between transformed PCD 422 and PCD 423: 460.830633
+
+Processing transformation 424/805
+Chamfer Distance between transformed PCD 423 and PCD 424: 451.064376
+
+Processing transformation 425/805
+Chamfer Distance between transformed PCD 424 and PCD 425: 493.365768
+
+Processing transformation 426/805
+Chamfer Distance between transformed PCD 425 and PCD 426: 467.452304
+
+Processing transformation 427/805
+Chamfer Distance between transformed PCD 426 and PCD 427: 437.556943
+
+Processing transformation 428/805
+Chamfer Distance between transformed PCD 427 and PCD 428: 439.278994
+
+Processing transformation 429/805
+Chamfer Distance between transformed PCD 428 and PCD 429: 426.515080
+
+Processing transformation 430/805
+Chamfer Distance between transformed PCD 429 and PCD 430: 458.392814
+
+Processing transformation 431/805
+Chamfer Distance between transformed PCD 430 and PCD 431: 448.361705
+
+Processing transformation 432/805
+Chamfer Distance between transformed PCD 431 and PCD 432: 447.909684
+
+Processing transformation 433/805
+Chamfer Distance between transformed PCD 432 and PCD 433: 443.886293
+
+Processing transformation 434/805
+Chamfer Distance between transformed PCD 433 and PCD 434: 456.484500
+
+Processing transformation 435/805
+Chamfer Distance between transformed PCD 434 and PCD 435: 424.143701
+
+Processing transformation 436/805
+Chamfer Distance between transformed PCD 435 and PCD 436: 430.133565
+
+Processing transformation 437/805
+Chamfer Distance between transformed PCD 436 and PCD 437: 399.186585
+
+Processing transformation 438/805
+Chamfer Distance between transformed PCD 437 and PCD 438: 409.697297
+
+Processing transformation 439/805
+Chamfer Distance between transformed PCD 438 and PCD 439: 404.918084
+
+Processing transformation 440/805
+Chamfer Distance between transformed PCD 439 and PCD 440: 428.347443
+
+Processing transformation 441/805
+Chamfer Distance between transformed PCD 440 and PCD 441: 384.235546
+
+Processing transformation 442/805
+Chamfer Distance between transformed PCD 441 and PCD 442: 354.659847
+
+Processing transformation 443/805
+Chamfer Distance between transformed PCD 442 and PCD 443: 370.263419
+
+Processing transformation 444/805
+Chamfer Distance between transformed PCD 443 and PCD 444: 370.170570
+
+Processing transformation 445/805
+Chamfer Distance between transformed PCD 444 and PCD 445: 349.131772
+
+Processing transformation 446/805
+Chamfer Distance between transformed PCD 445 and PCD 446: 353.639738
+
+Processing transformation 447/805
+Chamfer Distance between transformed PCD 446 and PCD 447: 352.592101
+
+Processing transformation 448/805
+Chamfer Distance between transformed PCD 447 and PCD 448: 347.970578
+
+Processing transformation 449/805
+Chamfer Distance between transformed PCD 448 and PCD 449: 372.205664
+
+Processing transformation 450/805
+Chamfer Distance between transformed PCD 449 and PCD 450: 348.588283
+
+Processing transformation 451/805
+Chamfer Distance between transformed PCD 450 and PCD 451: 371.966105
+
+Processing transformation 452/805
+Chamfer Distance between transformed PCD 451 and PCD 452: 375.879652
+
+Processing transformation 453/805
+Chamfer Distance between transformed PCD 452 and PCD 453: 356.340749
+
+Processing transformation 454/805
+Chamfer Distance between transformed PCD 453 and PCD 454: 391.775581
+
+Processing transformation 455/805
+Chamfer Distance between transformed PCD 454 and PCD 455: 395.611491
+
+Processing transformation 456/805
+Chamfer Distance between transformed PCD 455 and PCD 456: 412.365562
+
+Processing transformation 457/805
+Chamfer Distance between transformed PCD 456 and PCD 457: 434.645442
+
+Processing transformation 458/805
+Chamfer Distance between transformed PCD 457 and PCD 458: 445.479624
+
+Processing transformation 459/805
+Chamfer Distance between transformed PCD 458 and PCD 459: 487.254084
+
+Processing transformation 460/805
+Chamfer Distance between transformed PCD 459 and PCD 460: 522.265218
+
+Processing transformation 461/805
+Chamfer Distance between transformed PCD 460 and PCD 461: 530.796807
+
+Processing transformation 462/805
+Chamfer Distance between transformed PCD 461 and PCD 462: 570.275055
+
+Processing transformation 463/805
+Chamfer Distance between transformed PCD 462 and PCD 463: 592.052977
+
+Processing transformation 464/805
+Chamfer Distance between transformed PCD 463 and PCD 464: 579.576322
+
+Processing transformation 465/805
+Chamfer Distance between transformed PCD 464 and PCD 465: 616.055947
+
+Processing transformation 466/805
+Chamfer Distance between transformed PCD 465 and PCD 466: 632.780414
+
+Processing transformation 467/805
+Chamfer Distance between transformed PCD 466 and PCD 467: 686.771215
+
+Processing transformation 468/805
+Chamfer Distance between transformed PCD 467 and PCD 468: 730.274995
+
+Processing transformation 469/805
+Chamfer Distance between transformed PCD 468 and PCD 469: 769.692493
+
+Processing transformation 470/805
+Chamfer Distance between transformed PCD 469 and PCD 470: 815.586699
+
+Processing transformation 471/805
+Chamfer Distance between transformed PCD 470 and PCD 471: 813.207728
+
+Processing transformation 472/805
+Chamfer Distance between transformed PCD 471 and PCD 472: 817.718252
+
+Processing transformation 473/805
+Chamfer Distance between transformed PCD 472 and PCD 473: 860.098767
+
+Processing transformation 474/805
+Chamfer Distance between transformed PCD 473 and PCD 474: 911.801270
+
+Processing transformation 475/805
+Chamfer Distance between transformed PCD 474 and PCD 475: 865.672207
+
+Processing transformation 476/805
+Chamfer Distance between transformed PCD 475 and PCD 476: 961.717928
+
+Processing transformation 477/805
+Chamfer Distance between transformed PCD 476 and PCD 477: 848.971673
+
+Processing transformation 478/805
+Chamfer Distance between transformed PCD 477 and PCD 478: 983.549204
+
+Processing transformation 479/805
+Chamfer Distance between transformed PCD 478 and PCD 479: 887.038702
+
+Processing transformation 480/805
+Chamfer Distance between transformed PCD 479 and PCD 480: 1033.801162
+
+Processing transformation 481/805
+Chamfer Distance between transformed PCD 480 and PCD 481: 955.716094
+
+Processing transformation 482/805
+Chamfer Distance between transformed PCD 481 and PCD 482: 1073.043356
+
+Processing transformation 483/805
+Chamfer Distance between transformed PCD 482 and PCD 483: 1167.686164
+
+Processing transformation 484/805
+Chamfer Distance between transformed PCD 483 and PCD 484: 1127.311020
+
+Processing transformation 485/805
+Chamfer Distance between transformed PCD 484 and PCD 485: 1148.831714
+
+Processing transformation 486/805
+Chamfer Distance between transformed PCD 485 and PCD 486: 1161.094016
+
+Processing transformation 487/805
+Chamfer Distance between transformed PCD 486 and PCD 487: 1217.062112
+
+Processing transformation 488/805
+Chamfer Distance between transformed PCD 487 and PCD 488: 1121.468726
+
+Processing transformation 489/805
+Chamfer Distance between transformed PCD 488 and PCD 489: 1386.187976
+
+Processing transformation 490/805
+Chamfer Distance between transformed PCD 489 and PCD 490: 1328.312180
+
+Processing transformation 491/805
+Chamfer Distance between transformed PCD 490 and PCD 491: 1452.974131
+
+Processing transformation 492/805
+Chamfer Distance between transformed PCD 491 and PCD 492: 1461.307966
+
+Processing transformation 493/805
+Chamfer Distance between transformed PCD 492 and PCD 493: 1456.598793
+
+Processing transformation 494/805
+Chamfer Distance between transformed PCD 493 and PCD 494: 1484.484851
+
+Processing transformation 495/805
+Chamfer Distance between transformed PCD 494 and PCD 495: 1521.426763
+
+Processing transformation 496/805
+Chamfer Distance between transformed PCD 495 and PCD 496: 1412.094824
+
+Processing transformation 497/805
+Chamfer Distance between transformed PCD 496 and PCD 497: 1443.056974
+
+Processing transformation 498/805
+Chamfer Distance between transformed PCD 497 and PCD 498: 1586.975095
+
+Processing transformation 499/805
+Chamfer Distance between transformed PCD 498 and PCD 499: 1479.905489
+
+Processing transformation 500/805
+Chamfer Distance between transformed PCD 499 and PCD 500: 1593.896005
+
+Processing transformation 501/805
+Chamfer Distance between transformed PCD 500 and PCD 501: 1401.402843
+
+Processing transformation 502/805
+Chamfer Distance between transformed PCD 501 and PCD 502: 1622.740933
+
+Processing transformation 503/805
+Chamfer Distance between transformed PCD 502 and PCD 503: 1463.391178
+
+Processing transformation 504/805
+Chamfer Distance between transformed PCD 503 and PCD 504: 1811.366928
+
+Processing transformation 505/805
+Chamfer Distance between transformed PCD 504 and PCD 505: 1762.761801
+
+Processing transformation 506/805
+Chamfer Distance between transformed PCD 505 and PCD 506: 1745.885281
+
+Processing transformation 507/805
+Chamfer Distance between transformed PCD 506 and PCD 507: 2009.538800
+
+Processing transformation 508/805
+Chamfer Distance between transformed PCD 507 and PCD 508: 2128.940747
+
+Processing transformation 509/805
+Chamfer Distance between transformed PCD 508 and PCD 509: 2354.199100
+
+Processing transformation 510/805
+Chamfer Distance between transformed PCD 509 and PCD 510: 2428.006233
+
+Processing transformation 511/805
+Chamfer Distance between transformed PCD 510 and PCD 511: 2700.123500
+
+Processing transformation 512/805
+Chamfer Distance between transformed PCD 511 and PCD 512: 2928.864116
+
+Processing transformation 513/805
+Chamfer Distance between transformed PCD 512 and PCD 513: 3205.104758
+
+Processing transformation 514/805
+Chamfer Distance between transformed PCD 513 and PCD 514: 3332.965597
+
+Processing transformation 515/805
+Chamfer Distance between transformed PCD 514 and PCD 515: 3482.162224
+
+Processing transformation 516/805
+Chamfer Distance between transformed PCD 515 and PCD 516: 3605.492788
+
+Processing transformation 517/805
+Chamfer Distance between transformed PCD 516 and PCD 517: 3499.834959
+
+Processing transformation 518/805
+Chamfer Distance between transformed PCD 517 and PCD 518: 3291.512908
+
+Processing transformation 519/805
+Chamfer Distance between transformed PCD 518 and PCD 519: 3138.333145
+
+Processing transformation 520/805
+Chamfer Distance between transformed PCD 519 and PCD 520: 2858.245590
+
+Processing transformation 521/805
+Chamfer Distance between transformed PCD 520 and PCD 521: 2721.494995
+
+Processing transformation 522/805
+Chamfer Distance between transformed PCD 521 and PCD 522: 2454.338128
+
+Processing transformation 523/805
+Chamfer Distance between transformed PCD 522 and PCD 523: 2156.654858
+
+Processing transformation 524/805
+Chamfer Distance between transformed PCD 523 and PCD 524: 1744.949453
+
+Processing transformation 525/805
+Chamfer Distance between transformed PCD 524 and PCD 525: 1544.863954
+
+Processing transformation 526/805
+Chamfer Distance between transformed PCD 525 and PCD 526: 1397.752661
+
+Processing transformation 527/805
+Chamfer Distance between transformed PCD 526 and PCD 527: 1194.853140
+
+Processing transformation 528/805
+Chamfer Distance between transformed PCD 527 and PCD 528: 5087.280001
+
+Processing transformation 529/805
+Chamfer Distance between transformed PCD 528 and PCD 529: 2275.555837
+
+Processing transformation 530/805
+Chamfer Distance between transformed PCD 529 and PCD 530: 1233.431935
+
+Processing transformation 531/805
+Chamfer Distance between transformed PCD 530 and PCD 531: 1189.555830
+
+Processing transformation 532/805
+Chamfer Distance between transformed PCD 531 and PCD 532: 1144.162653
+
+Processing transformation 533/805
+Chamfer Distance between transformed PCD 532 and PCD 533: 1214.327132
+
+Processing transformation 534/805
+Chamfer Distance between transformed PCD 533 and PCD 534: 1178.697254
+
+Processing transformation 535/805
+Chamfer Distance between transformed PCD 534 and PCD 535: 1306.131043
+
+Processing transformation 536/805
+Chamfer Distance between transformed PCD 535 and PCD 536: 1339.156192
+
+Processing transformation 537/805
+Chamfer Distance between transformed PCD 536 and PCD 537: 1492.051481
+
+Processing transformation 538/805
+Chamfer Distance between transformed PCD 537 and PCD 538: 1558.008421
+
+Processing transformation 539/805
+Chamfer Distance between transformed PCD 538 and PCD 539: 1777.245541
+
+Processing transformation 540/805
+Chamfer Distance between transformed PCD 539 and PCD 540: 1629.164654
+
+Processing transformation 541/805
+Chamfer Distance between transformed PCD 540 and PCD 541: 1431.846399
+
+Processing transformation 542/805
+Chamfer Distance between transformed PCD 541 and PCD 542: 1680.832611
+
+Processing transformation 543/805
+Chamfer Distance between transformed PCD 542 and PCD 543: 1653.483283
+
+Processing transformation 544/805
+Chamfer Distance between transformed PCD 543 and PCD 544: 1917.994864
+
+Processing transformation 545/805
+Chamfer Distance between transformed PCD 544 and PCD 545: 1768.299699
+
+Processing transformation 546/805
+Chamfer Distance between transformed PCD 545 and PCD 546: 1774.503569
+
+Processing transformation 547/805
+Chamfer Distance between transformed PCD 546 and PCD 547: 1771.330185
+
+Processing transformation 548/805
+Chamfer Distance between transformed PCD 547 and PCD 548: 1849.874270
+
+Processing transformation 549/805
+Chamfer Distance between transformed PCD 548 and PCD 549: 1762.600249
+
+Processing transformation 550/805
+Chamfer Distance between transformed PCD 549 and PCD 550: 1775.779533
+
+Processing transformation 551/805
+Chamfer Distance between transformed PCD 550 and PCD 551: 1865.906058
+
+Processing transformation 552/805
+Chamfer Distance between transformed PCD 551 and PCD 552: 1988.104420
+
+Processing transformation 553/805
+Chamfer Distance between transformed PCD 552 and PCD 553: 2516.648673
+
+Processing transformation 554/805
+Chamfer Distance between transformed PCD 553 and PCD 554: 2726.785909
+
+Processing transformation 555/805
+Chamfer Distance between transformed PCD 554 and PCD 555: 3811.800166
+
+Processing transformation 556/805
+Chamfer Distance between transformed PCD 555 and PCD 556: 5238.253268
+
+Processing transformation 557/805
+Chamfer Distance between transformed PCD 556 and PCD 557: 5655.861915
+
+Processing transformation 558/805
+Chamfer Distance between transformed PCD 557 and PCD 558: 8760.535867
+
+Processing transformation 559/805
+Chamfer Distance between transformed PCD 558 and PCD 559: 10212.479817
+
+Processing transformation 560/805
+Chamfer Distance between transformed PCD 559 and PCD 560: 11211.607477
+
+Processing transformation 561/805
+Chamfer Distance between transformed PCD 560 and PCD 561: 11903.714562
+
+Processing transformation 562/805
+Chamfer Distance between transformed PCD 561 and PCD 562: 12551.830065
+
+Processing transformation 563/805
+Chamfer Distance between transformed PCD 562 and PCD 563: 12774.280754
+
+Processing transformation 564/805
+Chamfer Distance between transformed PCD 563 and PCD 564: 12684.632425
+
+Processing transformation 565/805
+Chamfer Distance between transformed PCD 564 and PCD 565: 12594.224641
+
+Processing transformation 566/805
+Chamfer Distance between transformed PCD 565 and PCD 566: 12380.792229
+
+Processing transformation 567/805
+Chamfer Distance between transformed PCD 566 and PCD 567: 11321.632860
+
+Processing transformation 568/805
+Chamfer Distance between transformed PCD 567 and PCD 568: 11947.617564
+
+Processing transformation 569/805
+Chamfer Distance between transformed PCD 568 and PCD 569: 11531.316214
+
+Processing transformation 570/805
+Chamfer Distance between transformed PCD 569 and PCD 570: 10714.758548
+
+Processing transformation 571/805
+Chamfer Distance between transformed PCD 570 and PCD 571: 10569.328981
+
+Processing transformation 572/805
+Chamfer Distance between transformed PCD 571 and PCD 572: 10590.539328
+
+Processing transformation 573/805
+Chamfer Distance between transformed PCD 572 and PCD 573: 9349.971724
+
+Processing transformation 574/805
+Chamfer Distance between transformed PCD 573 and PCD 574: 8743.374005
+
+Processing transformation 575/805
+Chamfer Distance between transformed PCD 574 and PCD 575: 9255.264841
+
+Processing transformation 576/805
+Chamfer Distance between transformed PCD 575 and PCD 576: 9431.108695
+
+Processing transformation 577/805
+Chamfer Distance between transformed PCD 576 and PCD 577: 8833.549141
+
+Processing transformation 578/805
+Chamfer Distance between transformed PCD 577 and PCD 578: 8762.773612
+
+Processing transformation 579/805
+Chamfer Distance between transformed PCD 578 and PCD 579: 9047.555681
+
+Processing transformation 580/805
+Chamfer Distance between transformed PCD 579 and PCD 580: 9664.349494
+
+Processing transformation 581/805
+Chamfer Distance between transformed PCD 580 and PCD 581: 9530.902347
+
+Processing transformation 582/805
+Chamfer Distance between transformed PCD 581 and PCD 582: 9459.976833
+
+Processing transformation 583/805
+Chamfer Distance between transformed PCD 582 and PCD 583: 17141.117356
+
+Processing transformation 584/805
+Chamfer Distance between transformed PCD 583 and PCD 584: 17239.674137
+
+Processing transformation 585/805
+Chamfer Distance between transformed PCD 584 and PCD 585: 17145.748182
+
+Processing transformation 586/805
+Chamfer Distance between transformed PCD 585 and PCD 586: 17039.202270
+
+Processing transformation 587/805
+Chamfer Distance between transformed PCD 586 and PCD 587: 13812.939062
+
+Processing transformation 588/805
+Chamfer Distance between transformed PCD 587 and PCD 588: 13765.986976
+
+Processing transformation 589/805
+Chamfer Distance between transformed PCD 588 and PCD 589: 13787.144821
+
+Processing transformation 590/805
+Chamfer Distance between transformed PCD 589 and PCD 590: 12864.075150
+
+Processing transformation 591/805
+Chamfer Distance between transformed PCD 590 and PCD 591: 13503.896040
+
+Processing transformation 592/805
+Chamfer Distance between transformed PCD 591 and PCD 592: 12923.127715
+
+Processing transformation 593/805
+Chamfer Distance between transformed PCD 592 and PCD 593: 12544.982896
+
+Processing transformation 594/805
+Chamfer Distance between transformed PCD 593 and PCD 594: 12588.899757
+
+Processing transformation 595/805
+Chamfer Distance between transformed PCD 594 and PCD 595: 13154.268443
+
+Processing transformation 596/805
+Chamfer Distance between transformed PCD 595 and PCD 596: 13807.486918
+
+Processing transformation 597/805
+Chamfer Distance between transformed PCD 596 and PCD 597: 13477.801661
+
+Processing transformation 598/805
+Chamfer Distance between transformed PCD 597 and PCD 598: 13444.300247
+
+Processing transformation 599/805
+Chamfer Distance between transformed PCD 598 and PCD 599: 15868.570734
+
+Processing transformation 600/805
+Chamfer Distance between transformed PCD 599 and PCD 600: 15005.824021
+
+Processing transformation 601/805
+Chamfer Distance between transformed PCD 600 and PCD 601: 10872.220848
+
+Processing transformation 602/805
+Chamfer Distance between transformed PCD 601 and PCD 602: 10902.654487
+
+Processing transformation 603/805
+Chamfer Distance between transformed PCD 602 and PCD 603: 14330.973031
+
+Processing transformation 604/805
+Chamfer Distance between transformed PCD 603 and PCD 604: 10539.208842
+
+Processing transformation 605/805
+Chamfer Distance between transformed PCD 604 and PCD 605: 12438.107087
+
+Processing transformation 606/805
+Chamfer Distance between transformed PCD 605 and PCD 606: 11707.947084
+
+Processing transformation 607/805
+Chamfer Distance between transformed PCD 606 and PCD 607: 11110.385702
+
+Processing transformation 608/805
+Chamfer Distance between transformed PCD 607 and PCD 608: 11191.047182
+
+Processing transformation 609/805
+Chamfer Distance between transformed PCD 608 and PCD 609: 10572.565639
+
+Processing transformation 610/805
+Chamfer Distance between transformed PCD 609 and PCD 610: 11744.329732
+
+Processing transformation 611/805
+Chamfer Distance between transformed PCD 610 and PCD 611: 11987.851732
+
+Processing transformation 612/805
+Chamfer Distance between transformed PCD 611 and PCD 612: 11695.866801
+
+Processing transformation 613/805
+Chamfer Distance between transformed PCD 612 and PCD 613: 14215.958935
+
+Processing transformation 614/805
+Chamfer Distance between transformed PCD 613 and PCD 614: 11794.045353
+
+Processing transformation 615/805
+Chamfer Distance between transformed PCD 614 and PCD 615: 14963.301383
+
+Processing transformation 616/805
+Chamfer Distance between transformed PCD 615 and PCD 616: 10874.310912
+
+Processing transformation 617/805
+Chamfer Distance between transformed PCD 616 and PCD 617: 12618.200790
+
+Processing transformation 618/805
+Chamfer Distance between transformed PCD 617 and PCD 618: 12315.571766
+
+Processing transformation 619/805
+Chamfer Distance between transformed PCD 618 and PCD 619: 13115.636056
+
+Processing transformation 620/805
+Chamfer Distance between transformed PCD 619 and PCD 620: 12324.232589
+
+Processing transformation 621/805
+Chamfer Distance between transformed PCD 620 and PCD 621: 12401.353100
+
+Processing transformation 622/805
+Chamfer Distance between transformed PCD 621 and PCD 622: 11768.658671
+
+Processing transformation 623/805
+Chamfer Distance between transformed PCD 622 and PCD 623: 11342.711820
+
+Processing transformation 624/805
+Chamfer Distance between transformed PCD 623 and PCD 624: 11098.548797
+
+Processing transformation 625/805
+Chamfer Distance between transformed PCD 624 and PCD 625: 12983.503808
+
+Processing transformation 626/805
+Chamfer Distance between transformed PCD 625 and PCD 626: 13327.808751
+
+Processing transformation 627/805
+Chamfer Distance between transformed PCD 626 and PCD 627: 14204.082132
+
+Processing transformation 628/805
+Chamfer Distance between transformed PCD 627 and PCD 628: 15154.137063
+
+Processing transformation 629/805
+Chamfer Distance between transformed PCD 628 and PCD 629: 15602.989965
+
+Processing transformation 630/805
+Chamfer Distance between transformed PCD 629 and PCD 630: 15927.416703
+
+Processing transformation 631/805
+Chamfer Distance between transformed PCD 630 and PCD 631: 16543.572261
+
+Processing transformation 632/805
+Chamfer Distance between transformed PCD 631 and PCD 632: 16806.127782
+
+Processing transformation 633/805
+Chamfer Distance between transformed PCD 632 and PCD 633: 16827.446538
+
+Processing transformation 634/805
+Chamfer Distance between transformed PCD 633 and PCD 634: 16807.276384
+
+Processing transformation 635/805
+Chamfer Distance between transformed PCD 634 and PCD 635: 18973.987661
+
+Processing transformation 636/805
+Chamfer Distance between transformed PCD 635 and PCD 636: 18076.692323
+
+Processing transformation 637/805
+Chamfer Distance between transformed PCD 636 and PCD 637: 18203.473289
+
+Processing transformation 638/805
+Chamfer Distance between transformed PCD 637 and PCD 638: 17799.417849
+
+Processing transformation 639/805
+Chamfer Distance between transformed PCD 638 and PCD 639: 11736.194834
+
+Processing transformation 640/805
+Chamfer Distance between transformed PCD 639 and PCD 640: 11461.720403
+
+Processing transformation 641/805
+Chamfer Distance between transformed PCD 640 and PCD 641: 13357.779347
+
+Processing transformation 642/805
+Chamfer Distance between transformed PCD 641 and PCD 642: 16392.544546
+
+Processing transformation 643/805
+Chamfer Distance between transformed PCD 642 and PCD 643: 16943.221949
+
+Processing transformation 644/805
+Chamfer Distance between transformed PCD 643 and PCD 644: 13150.065068
+
+Processing transformation 645/805
+Chamfer Distance between transformed PCD 644 and PCD 645: 13194.326557
+
+Processing transformation 646/805
+Chamfer Distance between transformed PCD 645 and PCD 646: 15502.925054
+
+Processing transformation 647/805
+Chamfer Distance between transformed PCD 646 and PCD 647: 13168.693650
+
+Processing transformation 648/805
+Chamfer Distance between transformed PCD 647 and PCD 648: 11342.166690
+
+Processing transformation 649/805
+Chamfer Distance between transformed PCD 648 and PCD 649: 8813.853819
+
+Processing transformation 650/805
+Chamfer Distance between transformed PCD 649 and PCD 650: 12171.482056
+
+Processing transformation 651/805
+Chamfer Distance between transformed PCD 650 and PCD 651: 14077.027835
+
+Processing transformation 652/805
+Chamfer Distance between transformed PCD 651 and PCD 652: 9757.715838
+
+Processing transformation 653/805
+Chamfer Distance between transformed PCD 652 and PCD 653: 10008.862075
+
+Processing transformation 654/805
+Chamfer Distance between transformed PCD 653 and PCD 654: 10628.771138
+
+Processing transformation 655/805
+Chamfer Distance between transformed PCD 654 and PCD 655: 10849.188931
+
+Processing transformation 656/805
+Chamfer Distance between transformed PCD 655 and PCD 656: 11340.089546
+
+Processing transformation 657/805
+Chamfer Distance between transformed PCD 656 and PCD 657: 14638.588884
+
+Processing transformation 658/805
+Chamfer Distance between transformed PCD 657 and PCD 658: 12659.919619
+
+Processing transformation 659/805
+Chamfer Distance between transformed PCD 658 and PCD 659: 10658.470079
+
+Processing transformation 660/805
+Chamfer Distance between transformed PCD 659 and PCD 660: 13863.817829
+
+Processing transformation 661/805
+Chamfer Distance between transformed PCD 660 and PCD 661: 12399.039272
+
+Processing transformation 662/805
+Chamfer Distance between transformed PCD 661 and PCD 662: 12234.106901
+
+Processing transformation 663/805
+Chamfer Distance between transformed PCD 662 and PCD 663: 13296.763247
+
+Processing transformation 664/805
+Chamfer Distance between transformed PCD 663 and PCD 664: 13782.675260
+
+Processing transformation 665/805
+Chamfer Distance between transformed PCD 664 and PCD 665: 14064.654403
+
+Processing transformation 666/805
+Chamfer Distance between transformed PCD 665 and PCD 666: 14459.103969
+
+Processing transformation 667/805
+Chamfer Distance between transformed PCD 666 and PCD 667: 14884.871007
+
+Processing transformation 668/805
+Chamfer Distance between transformed PCD 667 and PCD 668: 15039.411706
+
+Processing transformation 669/805
+Chamfer Distance between transformed PCD 668 and PCD 669: 15765.551358
+
+Processing transformation 670/805
+Chamfer Distance between transformed PCD 669 and PCD 670: 17153.887196
+
+Processing transformation 671/805
+Chamfer Distance between transformed PCD 670 and PCD 671: 15636.116306
+
+Processing transformation 672/805
+Chamfer Distance between transformed PCD 671 and PCD 672: 16703.232905
+
+Processing transformation 673/805
+Chamfer Distance between transformed PCD 672 and PCD 673: 16653.824851
+
+Processing transformation 674/805
+Chamfer Distance between transformed PCD 673 and PCD 674: 17068.521921
+
+Processing transformation 675/805
+Chamfer Distance between transformed PCD 674 and PCD 675: 16647.084041
+
+Processing transformation 676/805
+Chamfer Distance between transformed PCD 675 and PCD 676: 16784.095388
+
+Processing transformation 677/805
+Chamfer Distance between transformed PCD 676 and PCD 677: 16463.075116
+
+Processing transformation 678/805
+Chamfer Distance between transformed PCD 677 and PCD 678: 16322.534549
+
+Processing transformation 679/805
+Chamfer Distance between transformed PCD 678 and PCD 679: 16281.775407
+
+Processing transformation 680/805
+Chamfer Distance between transformed PCD 679 and PCD 680: 15491.372834
+
+Processing transformation 681/805
+Chamfer Distance between transformed PCD 680 and PCD 681: 16570.078603
+
+Processing transformation 682/805
+Chamfer Distance between transformed PCD 681 and PCD 682: 16047.927873
+
+Processing transformation 683/805
+Chamfer Distance between transformed PCD 682 and PCD 683: 16576.073020
+
+Processing transformation 684/805
+Chamfer Distance between transformed PCD 683 and PCD 684: 16261.442670
+
+Processing transformation 685/805
+Chamfer Distance between transformed PCD 684 and PCD 685: 20126.036585
+
+Processing transformation 686/805
+Chamfer Distance between transformed PCD 685 and PCD 686: 19048.314590
+
+Processing transformation 687/805
+Chamfer Distance between transformed PCD 686 and PCD 687: 19127.942399
+
+Processing transformation 688/805
+Chamfer Distance between transformed PCD 687 and PCD 688: 17192.739179
+
+Processing transformation 689/805
+Chamfer Distance between transformed PCD 688 and PCD 689: 19605.492812
+
+Processing transformation 690/805
+Chamfer Distance between transformed PCD 689 and PCD 690: 19676.232251
+
+Processing transformation 691/805
+Chamfer Distance between transformed PCD 690 and PCD 691: 19854.990674
+
+Processing transformation 692/805
+Chamfer Distance between transformed PCD 691 and PCD 692: 17306.225072
+
+Processing transformation 693/805
+Chamfer Distance between transformed PCD 692 and PCD 693: 19651.773094
+
+Processing transformation 694/805
+Chamfer Distance between transformed PCD 693 and PCD 694: 19775.328213
+
+Processing transformation 695/805
+Chamfer Distance between transformed PCD 694 and PCD 695: 19844.310878
+
+Processing transformation 696/805
+Chamfer Distance between transformed PCD 695 and PCD 696: 19280.051751
+
+Processing transformation 697/805
+Chamfer Distance between transformed PCD 696 and PCD 697: 18435.722288
+
+Processing transformation 698/805
+Chamfer Distance between transformed PCD 697 and PCD 698: 18626.329421
+
+Processing transformation 699/805
+Chamfer Distance between transformed PCD 698 and PCD 699: 18656.138906
+
+Processing transformation 700/805
+Chamfer Distance between transformed PCD 699 and PCD 700: 18657.699775
+
+Processing transformation 701/805
+Chamfer Distance between transformed PCD 700 and PCD 701: 18506.929874
+
+Processing transformation 702/805
+Chamfer Distance between transformed PCD 701 and PCD 702: 17517.805925
+
+Processing transformation 703/805
+Chamfer Distance between transformed PCD 702 and PCD 703: 17850.892883
+
+Processing transformation 704/805
+Chamfer Distance between transformed PCD 703 and PCD 704: 17322.049143
+
+Processing transformation 705/805
+Chamfer Distance between transformed PCD 704 and PCD 705: 17564.982281
+
+Processing transformation 706/805
+Chamfer Distance between transformed PCD 705 and PCD 706: 18068.242834
+
+Processing transformation 707/805
+Chamfer Distance between transformed PCD 706 and PCD 707: 17880.661479
+
+Processing transformation 708/805
+Chamfer Distance between transformed PCD 707 and PCD 708: 17407.744924
+
+Processing transformation 709/805
+Chamfer Distance between transformed PCD 708 and PCD 709: 18288.035647
+
+Processing transformation 710/805
+Chamfer Distance between transformed PCD 709 and PCD 710: 15680.519664
+
+Processing transformation 711/805
+Chamfer Distance between transformed PCD 710 and PCD 711: 15617.108590
+
+Processing transformation 712/805
+Chamfer Distance between transformed PCD 711 and PCD 712: 15101.596532
+
+Processing transformation 713/805
+Chamfer Distance between transformed PCD 712 and PCD 713: 15358.588977
+
+Processing transformation 714/805
+Chamfer Distance between transformed PCD 713 and PCD 714: 15039.756270
+
+Processing transformation 715/805
+Chamfer Distance between transformed PCD 714 and PCD 715: 16838.052234
+
+Processing transformation 716/805
+Chamfer Distance between transformed PCD 715 and PCD 716: 16790.948893
+
+Processing transformation 717/805
+Chamfer Distance between transformed PCD 716 and PCD 717: 16632.546113
+
+Processing transformation 718/805
+Chamfer Distance between transformed PCD 717 and PCD 718: 16579.022535
+
+Processing transformation 719/805
+Chamfer Distance between transformed PCD 718 and PCD 719: 16158.612700
+
+Processing transformation 720/805
+Chamfer Distance between transformed PCD 719 and PCD 720: 16288.948224
+
+Processing transformation 721/805
+Chamfer Distance between transformed PCD 720 and PCD 721: 16195.334956
+
+Processing transformation 722/805
+Chamfer Distance between transformed PCD 721 and PCD 722: 16251.672621
+
+Processing transformation 723/805
+Chamfer Distance between transformed PCD 722 and PCD 723: 16222.824569
+
+Processing transformation 724/805
+Chamfer Distance between transformed PCD 723 and PCD 724: 14973.676277
+
+Processing transformation 725/805
+Chamfer Distance between transformed PCD 724 and PCD 725: 14503.537243
+
+Processing transformation 726/805
+Chamfer Distance between transformed PCD 725 and PCD 726: 13365.516256
+
+Processing transformation 727/805
+Chamfer Distance between transformed PCD 726 and PCD 727: 15796.674560
+
+Processing transformation 728/805
+Chamfer Distance between transformed PCD 727 and PCD 728: 15401.313954
+
+Processing transformation 729/805
+Chamfer Distance between transformed PCD 728 and PCD 729: 15306.864604
+
+Processing transformation 730/805
+Chamfer Distance between transformed PCD 729 and PCD 730: 15434.653506
+
+Processing transformation 731/805
+Chamfer Distance between transformed PCD 730 and PCD 731: 16687.410110
+
+Processing transformation 732/805
+Chamfer Distance between transformed PCD 731 and PCD 732: 16353.477914
+
+Processing transformation 733/805
+Chamfer Distance between transformed PCD 732 and PCD 733: 15353.612587
+
+Processing transformation 734/805
+Chamfer Distance between transformed PCD 733 and PCD 734: 15164.581119
+
+Processing transformation 735/805
+Chamfer Distance between transformed PCD 734 and PCD 735: 14022.730827
+
+Processing transformation 736/805
+Chamfer Distance between transformed PCD 735 and PCD 736: 15008.996341
+
+Processing transformation 737/805
+Chamfer Distance between transformed PCD 736 and PCD 737: 14703.209017
+
+Processing transformation 738/805
+Chamfer Distance between transformed PCD 737 and PCD 738: 15151.905829
+
+Processing transformation 739/805
+Chamfer Distance between transformed PCD 738 and PCD 739: 15190.043517
+
+Processing transformation 740/805
+Chamfer Distance between transformed PCD 739 and PCD 740: 14224.019253
+
+Processing transformation 741/805
+Chamfer Distance between transformed PCD 740 and PCD 741: 14748.612757
+
+Processing transformation 742/805
+Chamfer Distance between transformed PCD 741 and PCD 742: 15522.428457
+
+Processing transformation 743/805
+Chamfer Distance between transformed PCD 742 and PCD 743: 15258.003674
+
+Processing transformation 744/805
+Chamfer Distance between transformed PCD 743 and PCD 744: 14534.945357
+
+Processing transformation 745/805
+Chamfer Distance between transformed PCD 744 and PCD 745: 14706.863572
+
+Processing transformation 746/805
+Chamfer Distance between transformed PCD 745 and PCD 746: 14116.558156
+
+Processing transformation 747/805
+Chamfer Distance between transformed PCD 746 and PCD 747: 14474.731755
+
+Processing transformation 748/805
+Chamfer Distance between transformed PCD 747 and PCD 748: 14424.176094
+
+Processing transformation 749/805
+Chamfer Distance between transformed PCD 748 and PCD 749: 13086.620154
+
+Processing transformation 750/805
+Chamfer Distance between transformed PCD 749 and PCD 750: 13655.968381
+
+Processing transformation 751/805
+Chamfer Distance between transformed PCD 750 and PCD 751: 13527.945208
+
+Processing transformation 752/805
+Chamfer Distance between transformed PCD 751 and PCD 752: 13313.863239
+
+Processing transformation 753/805
+Chamfer Distance between transformed PCD 752 and PCD 753: 12779.197928
+
+Processing transformation 754/805
+Chamfer Distance between transformed PCD 753 and PCD 754: 12712.217021
+
+Processing transformation 755/805
+Chamfer Distance between transformed PCD 754 and PCD 755: 12211.106760
+
+Processing transformation 756/805
+Chamfer Distance between transformed PCD 755 and PCD 756: 12418.980018
+
+Processing transformation 757/805
+Chamfer Distance between transformed PCD 756 and PCD 757: 11968.511542
+
+Processing transformation 758/805
+Chamfer Distance between transformed PCD 757 and PCD 758: 11552.606850
+
+Processing transformation 759/805
+Chamfer Distance between transformed PCD 758 and PCD 759: 11492.677845
+
+Processing transformation 760/805
+Chamfer Distance between transformed PCD 759 and PCD 760: 11742.582539
+
+Processing transformation 761/805
+Chamfer Distance between transformed PCD 760 and PCD 761: 11592.064885
+
+Processing transformation 762/805
+Chamfer Distance between transformed PCD 761 and PCD 762: 10952.755307
+
+Processing transformation 763/805
+Chamfer Distance between transformed PCD 762 and PCD 763: 11125.110186
+
+Processing transformation 764/805
+Chamfer Distance between transformed PCD 763 and PCD 764: 11477.473676
+
+Processing transformation 765/805
+Chamfer Distance between transformed PCD 764 and PCD 765: 11222.525516
+
+Processing transformation 766/805
+Chamfer Distance between transformed PCD 765 and PCD 766: 11073.685513
+
+Processing transformation 767/805
+Chamfer Distance between transformed PCD 766 and PCD 767: 11400.206786
+
+Processing transformation 768/805
+Chamfer Distance between transformed PCD 767 and PCD 768: 10500.116795
+
+Processing transformation 769/805
+Chamfer Distance between transformed PCD 768 and PCD 769: 11526.726453
+
+Processing transformation 770/805
+Chamfer Distance between transformed PCD 769 and PCD 770: 11169.818497
+
+Processing transformation 771/805
+Chamfer Distance between transformed PCD 770 and PCD 771: 10540.145564
+
+Processing transformation 772/805
+Chamfer Distance between transformed PCD 771 and PCD 772: 9970.149480
+
+Processing transformation 773/805
+Chamfer Distance between transformed PCD 772 and PCD 773: 10087.194769
+
+Processing transformation 774/805
+Chamfer Distance between transformed PCD 773 and PCD 774: 10050.934556
+
+Processing transformation 775/805
+Chamfer Distance between transformed PCD 774 and PCD 775: 10052.940360
+
+Processing transformation 776/805
+Chamfer Distance between transformed PCD 775 and PCD 776: 10183.324929
+
+Processing transformation 777/805
+Chamfer Distance between transformed PCD 776 and PCD 777: 10018.430901
+
+Processing transformation 778/805
+Chamfer Distance between transformed PCD 777 and PCD 778: 10023.281706
+
+Processing transformation 779/805
+Chamfer Distance between transformed PCD 778 and PCD 779: 10199.936787
+
+Processing transformation 780/805
+Chamfer Distance between transformed PCD 779 and PCD 780: 10042.265329
+
+Processing transformation 781/805
+Chamfer Distance between transformed PCD 780 and PCD 781: 10096.185118
+
+Processing transformation 782/805
+Chamfer Distance between transformed PCD 781 and PCD 782: 10184.879720
+
+Processing transformation 783/805
+Chamfer Distance between transformed PCD 782 and PCD 783: 10093.198833
+
+Processing transformation 784/805
+Chamfer Distance between transformed PCD 783 and PCD 784: 10022.278207
+
+Processing transformation 785/805
+Chamfer Distance between transformed PCD 784 and PCD 785: 10142.105159
+
+Processing transformation 786/805
+Chamfer Distance between transformed PCD 785 and PCD 786: 10066.350708
+
+Processing transformation 787/805
+Chamfer Distance between transformed PCD 786 and PCD 787: 10165.523364
+
+Processing transformation 788/805
+Chamfer Distance between transformed PCD 787 and PCD 788: 9942.173918
+
+Processing transformation 789/805
+Chamfer Distance between transformed PCD 788 and PCD 789: 10222.597260
+
+Processing transformation 790/805
+Chamfer Distance between transformed PCD 789 and PCD 790: 10069.675439
+
+Processing transformation 791/805
+Chamfer Distance between transformed PCD 790 and PCD 791: 10286.024195
+
+Processing transformation 792/805
+Chamfer Distance between transformed PCD 791 and PCD 792: 10141.616150
+
+Processing transformation 793/805
+Chamfer Distance between transformed PCD 792 and PCD 793: 10226.963563
+
+Processing transformation 794/805
+Chamfer Distance between transformed PCD 793 and PCD 794: 10138.580261
+
+Processing transformation 795/805
+Chamfer Distance between transformed PCD 794 and PCD 795: 10184.065563
+
+Processing transformation 796/805
+Chamfer Distance between transformed PCD 795 and PCD 796: 10240.495648
+
+Processing transformation 797/805
+Chamfer Distance between transformed PCD 796 and PCD 797: 10122.821882
+
+Processing transformation 798/805
+Chamfer Distance between transformed PCD 797 and PCD 798: 10063.639257
+
+Processing transformation 799/805
+Chamfer Distance between transformed PCD 798 and PCD 799: 10190.413218
+
+Processing transformation 800/805
+Chamfer Distance between transformed PCD 799 and PCD 800: 10012.089453
+
+Processing transformation 801/805
+Chamfer Distance between transformed PCD 800 and PCD 801: 10063.248399
+
+Processing transformation 802/805
+Chamfer Distance between transformed PCD 801 and PCD 802: 10042.713929
+
+Processing transformation 803/805
+Chamfer Distance between transformed PCD 802 and PCD 803: 10149.555100
+
+Processing transformation 804/805
+Chamfer Distance between transformed PCD 803 and PCD 804: 10156.784305
+
+Processing transformation 805/805

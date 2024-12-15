@@ -1,0 +1,119 @@
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [33 lines of output]
+      Traceback (most recent call last):
+        File "/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 353, in <module>
+          main()
+        File "/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 335, in main
+          json_out['return_val'] = hook(**hook_input['kwargs'])
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 112, in get_requires_for_build_wheel
+          backend = _build_backend()
+                    ^^^^^^^^^^^^^^^^
+        File "/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 77, in _build_backend
+          obj = import_module(mod_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+        File "/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/importlib/__init__.py", line 90, in import_module
+          return _bootstrap._gcd_import(name[level:], package, level)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+        File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+        File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+        File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+        File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+        File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+        File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+        File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+        File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+        File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+        File "/tmp/pip-build-env-nc45i5k5/overlay/lib/python3.12/site-packages/setuptools/__init__.py", line 16, in <module>
+          import setuptools.version
+        File "/tmp/pip-build-env-nc45i5k5/overlay/lib/python3.12/site-packages/setuptools/version.py", line 1, in <module>
+          import pkg_resources
+        File "/tmp/pip-build-env-nc45i5k5/overlay/lib/python3.12/site-packages/pkg_resources/__init__.py", line 2191, in <module>
+          register_finder(pkgutil.ImpImporter, find_on_path)
+                          ^^^^^^^^^^^^^^^^^^^
+      AttributeError: module 'pkgutil' has no attribute 'ImpImporter'. Did you mean: 'zipimporter'?
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: subprocess-exited-with-error
+
+× Getting requirements to build wheel did not run successfully.
+│ exit code: 1
+╰─> See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+/gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages/kiss_icp/datasets/ncd.py:75: SyntaxWarning: invalid escape sequence '\d'
+  regex = re.compile("^cloud_(\d*_\d*)")
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site- │
+│ packages/kiss_icp/tools/cmd.py:233 in kiss_icp_pipeline                      │
+│                                                                              │
+│   230 │   from kiss_icp.pipeline import OdometryPipeline                     │
+│   231 │                                                                      │
+│   232 │   OdometryPipeline(                                                  │
+│ ❱ 233 │   │   dataset=dataset_factory(                                       │
+│   234 │   │   │   dataloader=dataloader,                                     │
+│   235 │   │   │   data_dir=data,                                             │
+│   236 │   │   │   # Additional options                                       │
+│                                                                              │
+│ ╭───────────────────────────────── locals ─────────────────────────────────╮ │
+│ │     config = None                                                        │ │
+│ │       data = PosixPath('/gpfs/space/projects/mlcourse/2024/t18-lidar/gr… │ │
+│ │ dataloader = 'generic'                                                   │ │
+│ │     deskew = None                                                        │ │
+│ │       jump = 0                                                           │ │
+│ │  max_range = None                                                        │ │
+│ │       meta = None                                                        │ │
+│ │    n_scans = -1                                                          │ │
+│ │   sequence = None                                                        │ │
+│ │      topic = None                                                        │ │
+│ │    version = None                                                        │ │
+│ │  visualize = True                                                        │ │
+│ ╰──────────────────────────────────────────────────────────────────────────╯ │
+│                                                                              │
+│ /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site- │
+│ packages/kiss_icp/datasets/__init__.py:83 in dataset_factory                 │
+│                                                                              │
+│   80 │   module = importlib.import_module(f".{dataloader}", __name__)        │
+│   81 │   assert hasattr(module, dataloader_type), f"{dataloader_type} is not │
+│   82 │   dataset = getattr(module, dataloader_type)                          │
+│ ❱ 83 │   return dataset(data_dir=data_dir, *args, **kwargs)                  │
+│   84                                                                         │
+│                                                                              │
+│ ╭───────────────────────────────── locals ─────────────────────────────────╮ │
+│ │            args = ()                                                     │ │
+│ │        data_dir = PosixPath('/gpfs/space/projects/mlcourse/2024/t18-lid… │ │
+│ │      dataloader = 'generic'                                              │ │
+│ │ dataloader_type = 'GenericDataset'                                       │ │
+│ │       importlib = <module 'importlib' from                               │ │
+│ │                   '/gpfs/helios/home/joshua1/miniconda3/envs/lidar_proj… │ │
+│ │          kwargs = {'sequence': None, 'topic': None, 'meta': None}        │ │
+│ │          module = <module 'kiss_icp.datasets.generic' from               │ │
+│ │                   '/gpfs/helios/home/joshua1/miniconda3/envs/lidar_proj… │ │
+│ ╰──────────────────────────────────────────────────────────────────────────╯ │
+│                                                                              │
+│ /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site- │
+│ packages/kiss_icp/datasets/generic.py:49 in __init__                         │
+│                                                                              │
+│    46 │   │   │   dtype=str,                                                 │
+│    47 │   │   )                                                              │
+│    48 │   │   if len(self.scan_files) == 0:                                  │
+│ ❱  49 │   │   │   raise ValueError(f"Tried to read point cloud files in {sel │
+│    50 │   │   self.file_extension = self.scan_files[0].split(".")[-1]        │
+│    51 │   │   if self.file_extension not in supported_file_extensions():     │
+│    52 │   │   │   raise ValueError(f"Supported formats are: {supported_file_ │
+│                                                                              │
+│ ╭───────────────────────────────── locals ─────────────────────────────────╮ │
+│ │        _ = ()                                                            │ │
+│ │ data_dir = PosixPath('/gpfs/space/projects/mlcourse/2024/t18-lidar/grou… │ │
+│ │     self = <kiss_icp.datasets.generic.GenericDataset object at           │ │
+│ │            0x14b905997350>                                               │ │
+│ ╰──────────────────────────────────────────────────────────────────────────╯ │
+╰──────────────────────────────────────────────────────────────────────────────╯
+ValueError: Tried to read point cloud files in 
+/gpfs/space/projects/mlcourse/2024/t18-lidar/ground_removed_scenes/2024-03-25-15
+-42-22_mapping_tartu/ but none found

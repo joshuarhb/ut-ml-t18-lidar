@@ -1,0 +1,10 @@
+/var/spool/slurm/slurmd/job53005045/slurm_script: line 12: /gpfs/helios/home/joshua1/verify_kiss/verifykissvenv/bin/activate: No such file or directory
+  WARNING: Value for scheme.platlib does not match. Please report this to <https://github.com/pypa/pip/issues/10151>
+  distutils: /gpfs/helios/home/joshua1/.local/lib/python3.9/site-packages
+  sysconfig: /gpfs/helios/home/joshua1/.local/lib64/python3.9/site-packages
+  WARNING: Additional context:
+  user = True
+  home = None
+  root = None
+  prefix = None
+/var/spool/slurm/slurmd/job53005045/slurm_script: line 14: python: command not found

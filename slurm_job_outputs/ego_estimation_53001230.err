@@ -1,0 +1,8 @@
+
+EnvironmentNameNotFound: Could not find conda environment: lidar_project_py310
+You can list all discoverable environments with `conda info --envs`.
+
+
+WARNING: typer 0.15.1 does not provide the extra 'all'
+/gpfs/helios/home/joshua1/miniconda3/lib/python3.12/site-packages/kiss_icp/datasets/ncd.py:75: SyntaxWarning: invalid escape sequence '\d'
+  regex = re.compile("^cloud_(\d*_\d*)")

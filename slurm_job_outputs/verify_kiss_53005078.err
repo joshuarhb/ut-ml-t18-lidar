@@ -1,0 +1,6 @@
+INFO - 2024-12-14 21:35:56,930 - font_manager - Failed to extract font properties from /usr/share/fonts/cantarell/Cantarell-VF.otf: In FT2Font: Can not load face (SFNT font table missing; error code 0x8e)
+INFO - 2024-12-14 21:35:56,959 - font_manager - generated new fontManager
+Traceback (most recent call last):
+  File "verify_kiss.py", line 61, in <module>
+    next_pcd = pcd_list[i + 1]
+IndexError: list index out of range

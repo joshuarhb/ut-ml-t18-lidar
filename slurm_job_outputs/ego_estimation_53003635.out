@@ -1,0 +1,53 @@
+Requirement already satisfied: pip in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (24.3.1)
+Requirement already satisfied: setuptools in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (75.6.0)
+Requirement already satisfied: wheel in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (0.45.1)
+Requirement already satisfied: kiss-icp in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (1.1.0)
+Requirement already satisfied: natsort in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from kiss-icp) (8.4.0)
+Requirement already satisfied: numpy in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from kiss-icp) (2.0.1)
+Requirement already satisfied: plyfile in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from kiss-icp) (1.1)
+Requirement already satisfied: pydantic>=2 in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from kiss-icp) (2.10.3)
+Requirement already satisfied: pydantic-settings in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from kiss-icp) (2.7.0)
+Requirement already satisfied: pyquaternion in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from kiss-icp) (0.9.9)
+Requirement already satisfied: rich in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from kiss-icp) (13.9.4)
+Requirement already satisfied: tqdm in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from kiss-icp) (4.67.1)
+Requirement already satisfied: typer>=0.6.0 in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from typer[all]>=0.6.0->kiss-icp) (0.15.1)
+Requirement already satisfied: annotated-types>=0.6.0 in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from pydantic>=2->kiss-icp) (0.7.0)
+Requirement already satisfied: pydantic-core==2.27.1 in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from pydantic>=2->kiss-icp) (2.27.1)
+Requirement already satisfied: typing-extensions>=4.12.2 in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from pydantic>=2->kiss-icp) (4.12.2)
+Requirement already satisfied: click>=8.0.0 in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from typer>=0.6.0->typer[all]>=0.6.0->kiss-icp) (8.1.7)
+Requirement already satisfied: shellingham>=1.3.0 in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from typer>=0.6.0->typer[all]>=0.6.0->kiss-icp) (1.5.4)
+Requirement already satisfied: markdown-it-py>=2.2.0 in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from rich->kiss-icp) (3.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from rich->kiss-icp) (2.18.0)
+Requirement already satisfied: python-dotenv>=0.21.0 in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from pydantic-settings->kiss-icp) (1.0.1)
+Requirement already satisfied: mdurl~=0.1 in /gpfs/helios/home/joshua1/miniconda3/envs/lidar_project/lib/python3.12/site-packages (from markdown-it-py>=2.2.0->rich->kiss-icp) (0.1.2)
+Processing scene: 2024-03-25-15-40-16_mapping_tartu
+Running KISS-ICP on: /gpfs/space/projects/mlcourse/2024/t18-lidar/ground_removed_scenes/2024-03-25-15-40-16_mapping_tartu/non_ground_points
+Saving results to: /gpfs/space/projects/mlcourse/2024/t18-lidar/ground_removed_scenes/2024-03-25-15-40-16_mapping_tartu/ego_estimation
+Trying to guess how to read your data: `pip install "kiss-icp[all]"` is required
+ ─────────────────────────────────── 
+             Metric   Value   Units  
+ ─────────────────────────────────── 
+  Average Frequency    24     Hz     
+    Average Runtime    42     ms     
+ ─────────────────────────────────── 
+Processing scene: 2024-03-25-15-42-22_mapping_tartu
+Running KISS-ICP on: /gpfs/space/projects/mlcourse/2024/t18-lidar/ground_removed_scenes/2024-03-25-15-42-22_mapping_tartu/non_ground_points
+Saving results to: /gpfs/space/projects/mlcourse/2024/t18-lidar/ground_removed_scenes/2024-03-25-15-42-22_mapping_tartu/ego_estimation
+Trying to guess how to read your data: `pip install "kiss-icp[all]"` is required
+ ─────────────────────────────────── 
+             Metric   Value   Units  
+ ─────────────────────────────────── 
+  Average Frequency    27     Hz     
+    Average Runtime    36     ms     
+ ─────────────────────────────────── 
+Processing scene: 2024-03-25-15-44-03_mapping_tartu
+Running KISS-ICP on: /gpfs/space/projects/mlcourse/2024/t18-lidar/ground_removed_scenes/2024-03-25-15-44-03_mapping_tartu/non_ground_points
+Saving results to: /gpfs/space/projects/mlcourse/2024/t18-lidar/ground_removed_scenes/2024-03-25-15-44-03_mapping_tartu/ego_estimation
+Trying to guess how to read your data: `pip install "kiss-icp[all]"` is required
+ ─────────────────────────────────── 
+             Metric   Value   Units  
+ ─────────────────────────────────── 
+  Average Frequency    26     Hz     
+    Average Runtime    38     ms     
+ ─────────────────────────────────── 
+Processing scene: 2024-03-25-15-45-57_mapping_tartu
